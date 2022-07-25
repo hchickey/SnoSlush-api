@@ -304,7 +304,884 @@
         },
         {
             "id": 6,
-            "flavorName": ""
+            "flavorName": "Blue Hawaiian"
+        },
+        {
+            "id": 7,
+            "flavorName": "Bubblegum"
+        },
+        {
+            "id": 8,
+            "flavorName": "Blue Raspberry"
+        },
+        {
+            "id": 9,
+            "flavorName": "Banana"
+        },
+        {
+            "id": 10,
+            "flavorName": "Candy Crush"
+        },
+        {
+            "id": 11,
+            "flavorName": "Cheesecake"
+        },
+        {
+            "id": 12,
+            "flavorName": "Cherry"
+        },
+        {
+            "id": 13,
+            "flavorName": "Chocolate"
+        },
+        {
+            "id": 14,
+            "flavorName": "Coconut"
+        },
+        {
+            "id": 15,
+            "flavorName": "Cookie Dough"
+        },
+        {
+            "id": 16,
+            "flavorName": "Cotton Candy"
+        },
+        {
+            "id": 17,
+            "flavorName": "Coconut Cream"
+        },
+        {
+            "id": 18,
+            "flavorName": "Bahama Mama"
+        },
+        {
+            "id": 19,
+            "flavorName": "Birthday Cake"
+        },
+        {
+            "id": 20,
+            "flavorName": "Black Cherry"
+        },
+        {
+            "id": 21,
+            "flavorName": "Blue Bubblegum"
+        },
+        {
+            "id": 22,
+            "flavorName": "Blueberry"
+        },
+        {
+            "id": 23,
+            "flavorName": "Butterscotch"
+        },
+        {
+            "id": 24,
+            "flavorName": "Butterfly Kiss"
+        },
+        {
+            "id": 25,
+            "flavorName": "Candy Apple"
+        },
+        {
+            "id": 26,
+            "flavorName": "Cantaloupe"
+        },
+        {
+            "id": 27,
+            "flavorName": "Caramel"
+        },
+        {
+            "id": 28,
+            "flavorName": "Carrot Cake"
+        },
+        {
+            "id": 29,
+            "flavorName": "Cherry Cola"
+        },
+        {
+            "id": 30,
+            "flavorName": "Cherry Margarita"
+        },
+        {
+            "id": 31,
+            "flavorName": "Clear Bubblegum"
+        },
+        {
+            "id": 32,
+            "flavorName": "Clear Cherry"
+        },
+        {
+            "id": 33,
+            "flavorName": "Clear Grape"
+        },
+        {
+            "id": 34,
+            "flavorName": "Coffee"
+        },
+        {
+            "id": 35,
+            "flavorName": "Cola"
+        },
+        {
+            "id": 36,
+            "flavorName": "Cream Soda"
+        },
+        {
+            "id": 37,
+            "flavorName": "Butter Beer"
+        },
+        {
+            "id": 38,
+            "flavorName": "Coconut Cream Pie"
+        },
+        {
+            "id": 39,
+            "flavorName": "Caramel Apple"
+        },
+        {
+            "id": 40,
+            "flavorName": "Banana Cream Pie"
+        },
+        {
+            "id": 41,
+            "flavorName": "Bluebery Cobbler"
+        },
+        {
+            "id": 42,
+            "flavorName": "Blue Cotton Candy"
+        },
+        {
+            "id": 43,
+            "flavorName": "Cake Batter"
+        },
+        {
+            "id": 44,
+            "flavorName": "Clear Blue Raspberry"
+        },
+        {
+            "id": 45,
+            "flavorName": "Clear Coconut"
+        },
+        {
+            "id": 46,
+            "flavorName": "Clear Cheesecake"
+        },
+        {
+            "id": 47,
+            "flavorName": "Clear Wedding Cake"
+        },
+        {
+            "id": 48,
+            "flavorName": "Banana's Foster"
+        },
+        {
+            "id": 49,
+            "flavorName": "California Dreamin'"
+        },
+        {
+            "id": 50,
+            "flavorName": "Clear Strawberry"
+        },
+        {
+            "id": 51,
+            "flavorName": "Apple Pie"
+        },
+        {
+            "id": 52,
+            "flavorName": "Creme De Menthe"
+        },
+        {
+            "id": 53,
+            "flavorName": "Banana Creme"
+        },
+        {
+            "id": 54,
+            "flavorName": "Chocolate Cream"
+        },
+        {
+            "id": 55,
+            "flavorName": "Clear Pina Colada"
+        },
+        {
+            "id": 56,
+            "flavorName": "Clear Silver Fox"
+        },
+        {
+            "id": 57,
+            "flavorName": "Amaretto Cream"
+        },
+        {
+            "id": 58,
+            "flavorName": "Dreamsicle"
+        },
+        {
+            "id": 59,
+            "flavorName": "Double Bubble"
+        },
+        {
+            "id": 60,
+            "flavorName": "Electric Slide"
+        },
+        {
+            "id": 61,
+            "flavorName": "Fire"
+        },
+        {
+            "id": 62,
+            "flavorName": "Fuzzy Navel"
+        },
+        {
+            "id": 63,
+            "flavorName": "Fresh Pineapple"
+        },
+        {
+            "id": 64,
+            "flavorName": "Fresh Coconut"
+        },
+        {
+            "id": 65,
+            "flavorName": "Dill Pickle"
+        },
+        {
+            "id": 66,
+            "flavorName": "Egg Custard"
+        },
+        {
+            "id": 67,
+            "flavorName": "Fireball"
+        },
+        {
+            "id": 68,
+            "flavorName": "French Vanilla"
+        },
+        {
+            "id": 69,
+            "flavorName": "Fruitasia"
+        },
+        {
+            "id": 70,
+            "flavorName": "Fruity Pebbles"
+        },
+        {
+            "id": 71,
+            "flavorName": "Fuzzy Monkey"
+        },
+        {
+            "id": 72,
+            "flavorName": "Frogger"
+        },
+        {
+            "id": 73,
+            "flavorName": "Firecracker"
+        },
+        {
+            "id": 74,
+            "flavorName": "Double Butter"
+        },
+        {
+            "id": 75,
+            "flavorName": "Dinosaur"
+        },
+        {
+            "id": 76,
+            "flavorName": "Guava"
+        },
+        {
+            "id": 77,
+            "flavorName": "Grape"
+        },
+        {
+            "id": 78,
+            "flavorName": "Hawaiian"
+        },
+        {
+            "id": 79,
+            "flavorName": "Ghirardelli Caramel Apple"
+        },
+        {
+            "id": 80,
+            "flavorName": "Georgia Peach"
+        },
+        {
+            "id": 81,
+            "flavorName": "Hawaiian Rainbow"
+        },
+        {
+            "id": 82,
+            "flavorName": "Grenade"
+        },
+        {
+            "id": 83,
+            "flavorName": "Green Apple"
+        },
+        {
+            "id": 84,
+            "flavorName": "Honeydew"
+        },
+        {
+            "id": 85,
+            "flavorName": "Hurricane"
+        },
+        {
+            "id": 86,
+            "flavorName": "Ice Cream"
+        },
+        {
+            "id": 87,
+            "flavorName": "Iced Tea"
+        },
+        {
+            "id": 88,
+            "flavorName": "Grammie's Coffee"
+        },
+        {
+            "id": 89,
+            "flavorName": "Go Big Orange"
+        },
+        {
+            "id": 90,
+            "flavorName": "John Deere"
+        },
+        {
+            "id": 91,
+            "flavorName": "Kiwi"
+        },
+        {
+            "id": 92,
+            "flavorName": "Lemon"
+        },
+        {
+            "id": 93,
+            "flavorName": "Lime"
+        },
+        {
+            "id": 94,
+            "flavorName": "Legit"
+        },
+        {
+            "id": 95,
+            "flavorName": "Lemon Lime"
+        },
+        {
+            "id": 96,
+            "flavorName": "Lemonade"
+        },
+        {
+            "id": 97,
+            "flavorName": "Li Hing Mui"
+        },
+        {
+            "id": 98,
+            "flavorName": "J'Makin Me Happy"
+        },
+        {
+            "id": 99,
+            "flavorName": "Key Lime Colada"
+        },
+        {
+            "id": 100,
+            "flavorName": "Key Lime Pie"
+        },
+        {
+            "id": 101,
+            "flavorName": "Key Lime"
+        },
+        {
+            "id": 102,
+            "flavorName": "Lychee"
+        },
+        {
+            "id": 103,
+            "flavorName": "Mango"
+        },
+        {
+            "id": 104,
+            "flavorName": "Mai Tai"
+        },
+        {
+            "id": 105,
+            "flavorName": "Mango Tango"
+        },
+        {
+            "id": 106,
+            "flavorName": "Ninja Turtle"
+        },
+        {
+            "id": 107,
+            "flavorName": "Nectar"
+        },
+        {
+            "id": 108,
+            "flavorName": "Napoleon Dynamite"
+        },
+        {
+            "id": 109,
+            "flavorName": "Orange"
+        },
+        {
+            "id": 110,
+            "flavorName": "Orchid"
+        },
+        {
+            "id": 111,
+            "flavorName": "Margarita"
+        },
+        {
+            "id": 112,
+            "flavorName": "Maui Wowee"
+        },
+        {
+            "id": 113,
+            "flavorName": "Mojito"
+        },
+        {
+            "id": 114,
+            "flavorName": "Orange Pineapple"
+        },
+        {
+            "id": 115,
+            "flavorName": "Natural Margarita"
+        },
+        {
+            "id": 116,
+            "flavorName": "Nerds"
+        },
+        {
+            "id": 117,
+            "flavorName": "Marshmallow"
+        },
+        {
+            "id": 118,
+            "flavorName": "Mardi Gras King Cake"
+        },
+        {
+            "id": 119,
+            "flavorName": "Nectar Cream"
+        },
+        {
+            "id": 120,
+            "flavorName": "Merica"
+        },
+        {
+            "id": 121,
+            "flavorName": "Pineapple"
+        },
+        {
+            "id": 122,
+            "flavorName": "Peach"
+        },
+        {
+            "id": 123,
+            "flavorName": "Pear"
+        },
+        {
+            "id": 124,
+            "flavorName": "Peppermint"
+        },
+        {
+            "id": 125,
+            "flavorName": "Pina Colada"
+        },
+        {
+            "id": 126,
+            "flavorName": "Pink Bubblegum"
+        },
+        {
+            "id": 127,
+            "flavorName": "Pink Lemonade"
+        },
+        {
+            "id": 128,
+            "flavorName": "Purple Bubble"
+        },
+        {
+            "id": 129,
+            "flavorName": "Passionfruit"
+        },
+        {
+            "id": 130,
+            "flavorName": "Papaya"
+        },
+        {
+            "id": 131,
+            "flavorName": "Purple Haze"
+        },
+        {
+            "id": 132,
+            "flavorName": "Raspberry"
+        },
+        {
+            "id": 133,
+            "flavorName": "Rainbow"
+        },
+        {
+            "id": 134,
+            "flavorName": "Root Beer"
+        },
+        {
+            "id": 135,
+            "flavorName": "POG (passionfruit, orange, guava)"
+        },
+        {
+            "id": 136,
+            "flavorName": "Pink Champagne"
+        },
+        {
+            "id": 137,
+            "flavorName": "Plum"
+        },
+        {
+            "id": 138,
+            "flavorName": "Polar Punch"
+        },
+        {
+            "id": 139,
+            "flavorName": "Red Raspbery"
+        },
+        {
+            "id": 140,
+            "flavorName": "Pomegranate"
+        },
+        {
+            "id": 141,
+            "flavorName": "Praline"
+        },
+        {
+            "id": 142,
+            "flavorName": "Red Apple"
+        },
+        {
+            "id": 143,
+            "flavorName": "Red Velvet Cake"
+        },
+        {
+            "id": 144,
+            "flavorName": "Rootbeer Sno Float"
+        },
+        {
+            "id": 145,
+            "flavorName": "Pop's Candy Dish"
+        },
+        {
+            "id": 146,
+            "flavorName": "Peanut Butter"
+        },
+        {
+            "id": 147,
+            "flavorName": "Popeye"
+        },
+        {
+            "id": 148,
+            "flavorName": "Pink Cotton Candy"
+        },
+        {
+            "id": 149,
+            "flavorName": "Pasion"
+        },
+        {
+            "id": 150,
+            "flavorName": "Tiger's Blood"
+        },
+        {
+            "id": 151,
+            "flavorName": "Spearmint"
+        },
+        {
+            "id": 152,
+            "flavorName": "Spiderman"
+        },
+        {
+            "id": 153,
+            "flavorName": "Strawberry"
+        },
+        {
+            "id": 154,
+            "flavorName": "Tutti Fruti"
+        },
+        {
+            "id": 155,
+            "flavorName": "Strawberry Banana"
+        },
+        {
+            "id": 156,
+            "flavorName": "Strawberry Cheesecake"
+        },
+        {
+            "id": 157,
+            "flavorName": "Strawberry Kiwi"
+        },
+        {
+            "id": 158,
+            "flavorName": "Shock Tart"
+        },
+        {
+            "id": 159,
+            "flavorName": "Shrek"
+        },
+        {
+            "id": 160,
+            "flavorName": "Snow Cream"
+        },
+        {
+            "id": 161,
+            "flavorName": "Tangerine"
+        },
+        {
+            "id": 162,
+            "flavorName": "Toxic Waste"
+        },
+        {
+            "id": 163,
+            "flavorName": "Tropical Punch"
+        },
+        {
+            "id": 164,
+            "flavorName": "Strawnilla Shortcake"
+        },
+        {
+            "id": 165,
+            "flavorName": "Strawberry Lemonade"
+        },
+        {
+            "id": 166,
+            "flavorName": "Sour Gummi Worm"
+        },
+        {
+            "id": 167,
+            "flavorName": "Sour Apple"
+        },
+        {
+            "id": 168,
+            "flavorName": "Sour Spray"
+        },
+        {
+            "id": 169,
+            "flavorName": "Sweet Cherry"
+        },
+        {
+            "id": 170,
+            "flavorName": "Strawberry Shortcake"
+        },
+        {
+            "id": 171,
+            "flavorName": "Strawberry Daiquiri"
+        },
+        {
+            "id": 172,
+            "flavorName": "Sea Breeze"
+        },
+        {
+            "id": 173,
+            "flavorName": "Skylite"
+        },
+        {
+            "id": 174,
+            "flavorName": "Sour Cherry"
+        },
+        {
+            "id": 175,
+            "flavorName": "Sour Grape"
+        },
+        {
+            "id": 176,
+            "flavorName": "Sour Tsunami"
+        },
+        {
+            "id": 177,
+            "flavorName": "Sweet Tart"
+        },
+        {
+            "id": 178,
+            "flavorName": "Tamarind"
+        },
+        {
+            "id": 179,
+            "flavorName": "Toothpaste"
+        },
+        {
+            "id": 180,
+            "flavorName": "Super Hero"
+        },
+        {
+            "id": 181,
+            "flavorName": "Unicorn"
+        },
+        {
+            "id": 182,
+            "flavorName": "Shark Attack"
+        },
+        {
+            "id": 183,
+            "flavorName": "Sour Tart"
+        },
+        {
+            "id": 184,
+            "flavorName": "Sunset Beach"
+        },
+        {
+            "id": 185,
+            "flavorName": "Snoberry"
+        },
+        {
+            "id": 186,
+            "flavorName": "Strawberries and Cream"
+        },
+        {
+            "id": 187,
+            "flavorName": "Sunset"
+        },
+        {
+            "id": 188,
+            "flavorName": "Tongue Twister"
+        },
+        {
+            "id": 189,
+            "flavorName": "Sugar Free Cake Batter"
+        },
+        {
+            "id": 190,
+            "flavorName": "Sugar Free Cherry"
+        },
+        {
+            "id": 191,
+            "flavorName": "Sugar Free Coconut"
+        },
+        {
+            "id": 192,
+            "flavorName": "Sugar Free Grape"
+        },
+        {
+            "id": 193,
+            "flavorName": "Sugar Free Lemon"
+        },
+        {
+            "id": 194,
+            "flavorName": "Sugar Free Orange"
+        },
+        {
+            "id": 195,
+            "flavorName": "Surf's Up"
+        },
+        {
+            "id": 196,
+            "flavorName": "Smores"
+        },
+        {
+            "id": 197,
+            "flavorName": "Turtle Pecan"
+        },
+        {
+            "id": 198,
+            "flavorName": "Sugar Free Blue Raspberry"
+        },
+        {
+            "id": 199,
+            "flavorName": "Sugar Free Pina Colada"
+        },
+        {
+            "id": 200,
+            "flavorName": "Sugar Free Tiger's Blood"
+        },
+        {
+            "id": 201,
+            "flavorName": "Sugar Free Wedding Cake"
+        },
+        {
+            "id": 202,
+            "flavorName": "The Titan"
+        },
+        {
+            "id": 203,
+            "flavorName": "Strawberry Margarita"
+        },
+        {
+            "id": 204,
+            "flavorName": "Sugar Free Strawberry"
+        },
+        {
+            "id": 205,
+            "flavorName": "Sugar Free Watermelon"
+        },
+        {
+            "id": 206,
+            "flavorName": "Sugar Free Banana"
+        },
+        {
+            "id": 207,
+            "flavorName": "Sugar Free Hurricane"
+        },
+        {
+            "id": 208,
+            "flavorName": "Some Where on a Beach"
+        },
+        {
+            "id": 209,
+            "flavorName": "Snow Angel"
+        },
+        {
+            "id": 210,
+            "flavorName": "Sugar Free Hawaiian Lemon Lime"
+        },
+        {
+            "id": 211,
+            "flavorName": "Sugar Free Bubblegum"
+        },
+        {
+            "id": 212,
+            "flavorName": "Sugar Free Lime"
+        },
+        {
+            "id": 213,
+            "flavorName": "Sugar Free Peach"
+        },
+        {
+            "id": 214,
+            "flavorName": "Watermelon"
+        },
+        {
+            "id": 215,
+            "flavorName": "Wedding Cake"
+        },
+        {
+            "id": 216,
+            "flavorName": "White Wedding"
+        },
+        {
+            "id": 217,
+            "flavorName": "Vanilla Cola"
+        },
+        {
+            "id": 218,
+            "flavorName": "Wally Bobo"
+        },
+        {
+            "id": 219,
+            "flavorName": "Wild Cherry"
+        },
+        {
+            "id": 220,
+            "flavorName": "Wild Strawberry"
+        },
+        {
+            "id": 221,
+            "flavorName": "Wild Thang"
+        },
+        {
+            "id": 222,
+            "flavorName": "Vanilla"
+        },
+        {
+            "id": 223,
+            "flavorName": "White Chocolate"
+        },
+        {
+            "id": 224,
+            "flavorName": "White Chocolate Cream"
+        }
+    ],
+    "locationsFlavors": [
+        {
+            
         }
     ]
 }
