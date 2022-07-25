@@ -1,0 +1,310 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Jay Gordon",
+            "email": "jay.jay@gordon.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 2,
+            "fullName": "Wendy Hicks",
+            "email": "wendy@hicks.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 3,
+            "fullName": "Willow Berry",
+            "email": "willow@berry.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 4,
+            "fullName": "Helen Fisher",
+            "email": "helen@fisher.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 5,
+            "fullName": "Francis Little",
+            "email": "francis@little.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 6,
+            "fullName": "Liz Staple",
+            "email": "liz@staple.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 7,
+            "fullName": "Josh Rittenberry",
+            "email": "josh@rittenberry.com",
+            "profileImg": "",
+            "Bio": ""
+        },
+        {
+            "id": 8,
+            "fullName": "Haley Hickey",
+            "email": "haley@hickey",
+            "profileImg": "",
+            "Bio": ""
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Jerry's Snow Cones",
+            "address": "1657 Wells Station Road, Memphis, TN 38108",
+            "city": "Memphis",
+            "photo": ""
+        },
+        {
+            "id": 2,
+            "name": "Blue Monkey Shaved Ice",
+            "address": "2611 12th Ave S., Nashville, TN 37204",
+            "city": "Nashville",
+            "photo": ""
+        },
+        {
+            "id": 3,
+            "name": "Pelican's SnoBalls",
+            "address": "5900 Kingston Pike, Knoxville, TN 37919",
+            "city": "Knoxville",
+            "photo": ""
+        },
+        {
+            "id": 4,
+            "name": "Seb's Shaved Ice",
+            "address": "3100 N Highland Ave, Jackson, TN 38305",
+            "city": "Jackson",
+            "photo": ""
+        },
+        {
+            "id": 5,
+            "name": "Cotton and Snow",
+            "address": "5055 Broadway Place, Nashville, TN 37203",
+            "city": "Nashville",
+            "photo": ""
+        },
+        {
+            "id": 6,
+            "name": "Mot's Shaved Ice",
+            "address": "537 S College St, Winchester, TN 37398",
+            "city": "Winchester",
+            "photo": ""
+        },
+        {
+            "id": 7,
+            "name": "Sharky's Snoballs",
+            "address": "104 N Maple St, Lebanon, TN 37087",
+            "city": "Lebanon",
+            "photo": ""
+        },
+        {
+            "id": 8,
+            "name": "Magnolia's Southern Snoballs",
+            "address": "1219 Hazelwood Dr, Smyrna, TN 37167",
+            "city": "Smyrna",
+            "photo": ""
+        },
+        {
+            "id": 9,
+            "name": "Beach Company Chill Shaved Ice",
+            "address": "127 Locke Ave, Spring Hill, TN 37174",
+            "city": "Spring Hill",
+            "photo": ""
+        },
+        {
+            "id": 10,
+            "name": "Tchoupitoulas Street Snoballs",
+            "address": "213 5th Ave N, Franklin, TN 37064",
+            "city": "Franklin",
+            "photo": ""
+        }
+    ],
+    "featuredFlavors": [
+        {
+            "id": 1,
+            "flavorName": "Hurricane Elvis",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "flavorName": "Tickle Me Sweet",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "flavorName": "Roller Coaster",
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "flavorName": "Watermelon Basil",
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "flavorName": "Lilikoi",
+            "locationId": 2
+        },
+        {
+            "id": 6,
+            "flavorName": "Key Lime Pie",
+            "locationId": 2
+        },
+        {
+            "id": 7,
+            "flavorName": "Dinosaur",
+            "locationId": 3
+        },
+        {
+            "id": 8,
+            "flavorName": "Pretty Princess",
+            "locationId": 3
+        },
+        {
+            "id": 9,
+            "flavorName": "Gone Fishin'",
+            "locationId": 3
+        },
+        {
+            "id": 10,
+            "flavorName": "Nerd Swirly",
+            "locationId": 4
+        },
+        {
+            "id": 11,
+            "flavorName": "Grizzberry",
+            "locationId": 4
+        },
+        {
+            "id": 12,
+            "flavorName": "Cereal Milk",
+            "locationId": 4
+        },
+        {
+            "id": 13,
+            "flavorName": "Banana Pudding",
+            "locationId": 5
+        },
+        {
+            "id": 14,
+            "flavorName": "Fat Tuesday",
+            "locationId": 5
+        },
+        {
+            "id": 15,
+            "flavorName": "Spongebob",
+            "locationId": 5
+        },
+        {
+            "id": 16,
+            "flavorName": "Banana Split",
+            "locationId": 6
+        },
+        {
+            "id": 17,
+            "flavorName": "Peach Cobbler",
+            "locationId": 6
+        },
+        {
+            "id": 18,
+            "flavorName": "Grandma's Candy Bar",
+            "locationId": 6
+        },
+        {
+            "id": 19,
+            "flavorName": "Pirate's Gold",
+            "locationId": 7
+        },
+        {
+            "id": 20,
+            "flavorName": "Shark Bite",
+            "locationId": 7
+        },
+        {
+            "id": 21,
+            "flavorName": "Star Fish Kiss",
+            "locationId": 7
+        },
+        {
+            "id": 22,
+            "flavorName": "Reese's Peanut Butter Cup",
+            "locationId": 8
+        },
+        {
+            "id": 23,
+            "flavorName": "The Grasshopper",
+            "locationId": 8
+        },
+        {
+            "id": 24,
+            "flavorName": "Pink Lady",
+            "locationId": 8
+        },
+        {
+            "id": 25,
+            "flavorName": "Cookies N' Cream",
+            "locationId": 9
+        },
+        {
+            "id": 26,
+            "flavorName": "MuleTown",
+            "locationId": 9
+        },
+        {
+            "id": 27,
+            "flavorName": "Beach Co. Over the Rainbow",
+            "locationId": 9
+        },
+        {
+            "id": 28,
+            "flavorName": "Granny Smith Apple",
+            "locationId": 10
+        },
+        {
+            "id": 29,
+            "flavorName": "Spearmint",
+            "locationId": 10
+        },
+        {
+            "id": 30,
+            "flavorName": "Cafe Au Lait",
+            "locationId": 10
+        }
+    ],
+    "flavors": [
+        {
+            "id": 1,
+            "flavorName": "Almond Joy"
+        },
+        {
+            "id": 2,
+            "flavorName": "Apple"
+        },
+        {
+            "id": 3,
+            "flavorName": "Apricot"
+        },
+        {
+            "id": 4,
+            "flavorName": "Blackberry"
+        },
+        {
+            "id": 5,
+            "flavorName": "Blue Coconut"
+        },
+        {
+            "id": 6,
+            "flavorName": ""
+        }
+    ]
+}
