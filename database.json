@@ -1654,6 +1654,17 @@
         { "id": 472, "flavorId": 213, "locationId": 10 },
         { "id": 473, "flavorId": 214, "locationId": 10 },
         { "id": 474, "flavorId": 215, "locationId": 10 },
-        { "id": 475, "flavorId": 222, "locationId": 10 },
+        { "id": 475, "flavorId": 222, "locationId": 10 }
+    ],
+    "createdFlavors": [
+        {
+            "id": 1,
+            "userId": 8,
+            "userName": "Haley Hickey",
+            "message": "I love the blend of berries for snow cones.",
+            "flavorName": "Berries and Giggles",
+            "flavorId1": 153,
+            "flavorId2": 8
+        }
     ]
 }
