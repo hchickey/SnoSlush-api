@@ -1,1670 +1,3679 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Jay Gordon",
-            "email": "jay.jay@gordon.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 2,
-            "fullName": "Wendy Hicks",
-            "email": "wendy@hicks.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 3,
-            "fullName": "Willow Berry",
-            "email": "willow@berry.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 4,
-            "fullName": "Helen Fisher",
-            "email": "helen@fisher.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 5,
-            "fullName": "Francis Little",
-            "email": "francis@little.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 6,
-            "fullName": "Liz Staple",
-            "email": "liz@staple.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 7,
-            "fullName": "Josh Rittenberry",
-            "email": "josh@rittenberry.com",
-            "profileImg": "",
-            "Bio": ""
-        },
-        {
-            "id": 8,
-            "fullName": "Haley Hickey",
-            "email": "haley@hickey",
-            "profileImg": "",
-            "Bio": ""
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Jerry's Snow Cones",
-            "address": "1657 Wells Station Road, Memphis, TN 38108",
-            "city": "Memphis",
-            "photo": ""
-        },
-        {
-            "id": 2,
-            "name": "Blue Monkey Shaved Ice",
-            "address": "2611 12th Ave S., Nashville, TN 37204",
-            "city": "Nashville",
-            "photo": ""
-        },
-        {
-            "id": 3,
-            "name": "Pelican's SnoBalls",
-            "address": "5900 Kingston Pike, Knoxville, TN 37919",
-            "city": "Knoxville",
-            "photo": ""
-        },
-        {
-            "id": 4,
-            "name": "Seb's Shaved Ice",
-            "address": "3100 N Highland Ave, Jackson, TN 38305",
-            "city": "Jackson",
-            "photo": ""
-        },
-        {
-            "id": 5,
-            "name": "Cotton and Snow",
-            "address": "5055 Broadway Place, Nashville, TN 37203",
-            "city": "Nashville",
-            "photo": ""
-        },
-        {
-            "id": 6,
-            "name": "Mot's Shaved Ice",
-            "address": "537 S College St, Winchester, TN 37398",
-            "city": "Winchester",
-            "photo": ""
-        },
-        {
-            "id": 7,
-            "name": "Sharky's Snoballs",
-            "address": "104 N Maple St, Lebanon, TN 37087",
-            "city": "Lebanon",
-            "photo": ""
-        },
-        {
-            "id": 8,
-            "name": "Magnolia's Southern Snoballs",
-            "address": "1219 Hazelwood Dr, Smyrna, TN 37167",
-            "city": "Smyrna",
-            "photo": ""
-        },
-        {
-            "id": 9,
-            "name": "Beach Company Chill Shaved Ice",
-            "address": "127 Locke Ave, Spring Hill, TN 37174",
-            "city": "Spring Hill",
-            "photo": ""
-        },
-        {
-            "id": 10,
-            "name": "Tchoupitoulas Street Snoballs",
-            "address": "213 5th Ave N, Franklin, TN 37064",
-            "city": "Franklin",
-            "photo": ""
-        }
-    ],
-    "featuredFlavors": [
-        {
-            "id": 1,
-            "flavorName": "Hurricane Elvis",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "flavorName": "Tickle Me Sweet",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "flavorName": "Roller Coaster",
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "flavorName": "Watermelon Basil",
-            "locationId": 2
-        },
-        {
-            "id": 5,
-            "flavorName": "Lilikoi",
-            "locationId": 2
-        },
-        {
-            "id": 6,
-            "flavorName": "Key Lime Pie",
-            "locationId": 2
-        },
-        {
-            "id": 7,
-            "flavorName": "Dinosaur",
-            "locationId": 3
-        },
-        {
-            "id": 8,
-            "flavorName": "Pretty Princess",
-            "locationId": 3
-        },
-        {
-            "id": 9,
-            "flavorName": "Gone Fishin'",
-            "locationId": 3
-        },
-        {
-            "id": 10,
-            "flavorName": "Nerd Swirly",
-            "locationId": 4
-        },
-        {
-            "id": 11,
-            "flavorName": "Grizzberry",
-            "locationId": 4
-        },
-        {
-            "id": 12,
-            "flavorName": "Cereal Milk",
-            "locationId": 4
-        },
-        {
-            "id": 13,
-            "flavorName": "Banana Pudding",
-            "locationId": 5
-        },
-        {
-            "id": 14,
-            "flavorName": "Fat Tuesday",
-            "locationId": 5
-        },
-        {
-            "id": 15,
-            "flavorName": "Spongebob",
-            "locationId": 5
-        },
-        {
-            "id": 16,
-            "flavorName": "Banana Split",
-            "locationId": 6
-        },
-        {
-            "id": 17,
-            "flavorName": "Peach Cobbler",
-            "locationId": 6
-        },
-        {
-            "id": 18,
-            "flavorName": "Grandma's Candy Bar",
-            "locationId": 6
-        },
-        {
-            "id": 19,
-            "flavorName": "Pirate's Gold",
-            "locationId": 7
-        },
-        {
-            "id": 20,
-            "flavorName": "Shark Bite",
-            "locationId": 7
-        },
-        {
-            "id": 21,
-            "flavorName": "Star Fish Kiss",
-            "locationId": 7
-        },
-        {
-            "id": 22,
-            "flavorName": "Reese's Peanut Butter Cup",
-            "locationId": 8
-        },
-        {
-            "id": 23,
-            "flavorName": "The Grasshopper",
-            "locationId": 8
-        },
-        {
-            "id": 24,
-            "flavorName": "Pink Lady",
-            "locationId": 8
-        },
-        {
-            "id": 25,
-            "flavorName": "Cookies N' Cream",
-            "locationId": 9
-        },
-        {
-            "id": 26,
-            "flavorName": "MuleTown",
-            "locationId": 9
-        },
-        {
-            "id": 27,
-            "flavorName": "Beach Co. Over the Rainbow",
-            "locationId": 9
-        },
-        {
-            "id": 28,
-            "flavorName": "Granny Smith Apple",
-            "locationId": 10
-        },
-        {
-            "id": 29,
-            "flavorName": "Spearmint",
-            "locationId": 10
-        },
-        {
-            "id": 30,
-            "flavorName": "Cafe Au Lait",
-            "locationId": 10
-        }
-    ],
-    "flavors": [
-        {
-            "id": 1,
-            "flavorName": "Almond Joy"
-        },
-        {
-            "id": 2,
-            "flavorName": "Apple"
-        },
-        {
-            "id": 3,
-            "flavorName": "Apricot"
-        },
-        {
-            "id": 4,
-            "flavorName": "Blackberry"
-        },
-        {
-            "id": 5,
-            "flavorName": "Blue Coconut"
-        },
-        {
-            "id": 6,
-            "flavorName": "Blue Hawaiian"
-        },
-        {
-            "id": 7,
-            "flavorName": "Bubblegum"
-        },
-        {
-            "id": 8,
-            "flavorName": "Blue Raspberry"
-        },
-        {
-            "id": 9,
-            "flavorName": "Banana"
-        },
-        {
-            "id": 10,
-            "flavorName": "Candy Crush"
-        },
-        {
-            "id": 11,
-            "flavorName": "Cheesecake"
-        },
-        {
-            "id": 12,
-            "flavorName": "Cherry"
-        },
-        {
-            "id": 13,
-            "flavorName": "Chocolate"
-        },
-        {
-            "id": 14,
-            "flavorName": "Coconut"
-        },
-        {
-            "id": 15,
-            "flavorName": "Cookie Dough"
-        },
-        {
-            "id": 16,
-            "flavorName": "Cotton Candy"
-        },
-        {
-            "id": 17,
-            "flavorName": "Coconut Cream"
-        },
-        {
-            "id": 18,
-            "flavorName": "Bahama Mama"
-        },
-        {
-            "id": 19,
-            "flavorName": "Birthday Cake"
-        },
-        {
-            "id": 20,
-            "flavorName": "Black Cherry"
-        },
-        {
-            "id": 21,
-            "flavorName": "Blue Bubblegum"
-        },
-        {
-            "id": 22,
-            "flavorName": "Blueberry"
-        },
-        {
-            "id": 23,
-            "flavorName": "Butterscotch"
-        },
-        {
-            "id": 24,
-            "flavorName": "Butterfly Kiss"
-        },
-        {
-            "id": 25,
-            "flavorName": "Candy Apple"
-        },
-        {
-            "id": 26,
-            "flavorName": "Cantaloupe"
-        },
-        {
-            "id": 27,
-            "flavorName": "Caramel"
-        },
-        {
-            "id": 28,
-            "flavorName": "Carrot Cake"
-        },
-        {
-            "id": 29,
-            "flavorName": "Cherry Cola"
-        },
-        {
-            "id": 30,
-            "flavorName": "Cherry Margarita"
-        },
-        {
-            "id": 31,
-            "flavorName": "Clear Bubblegum"
-        },
-        {
-            "id": 32,
-            "flavorName": "Clear Cherry"
-        },
-        {
-            "id": 33,
-            "flavorName": "Clear Grape"
-        },
-        {
-            "id": 34,
-            "flavorName": "Coffee"
-        },
-        {
-            "id": 35,
-            "flavorName": "Cola"
-        },
-        {
-            "id": 36,
-            "flavorName": "Cream Soda"
-        },
-        {
-            "id": 37,
-            "flavorName": "Butter Beer"
-        },
-        {
-            "id": 38,
-            "flavorName": "Coconut Cream Pie"
-        },
-        {
-            "id": 39,
-            "flavorName": "Caramel Apple"
-        },
-        {
-            "id": 40,
-            "flavorName": "Banana Cream Pie"
-        },
-        {
-            "id": 41,
-            "flavorName": "Bluebery Cobbler"
-        },
-        {
-            "id": 42,
-            "flavorName": "Blue Cotton Candy"
-        },
-        {
-            "id": 43,
-            "flavorName": "Cake Batter"
-        },
-        {
-            "id": 44,
-            "flavorName": "Clear Blue Raspberry"
-        },
-        {
-            "id": 45,
-            "flavorName": "Clear Coconut"
-        },
-        {
-            "id": 46,
-            "flavorName": "Clear Cheesecake"
-        },
-        {
-            "id": 47,
-            "flavorName": "Clear Wedding Cake"
-        },
-        {
-            "id": 48,
-            "flavorName": "Banana's Foster"
-        },
-        {
-            "id": 49,
-            "flavorName": "California Dreamin'"
-        },
-        {
-            "id": 50,
-            "flavorName": "Clear Strawberry"
-        },
-        {
-            "id": 51,
-            "flavorName": "Apple Pie"
-        },
-        {
-            "id": 52,
-            "flavorName": "Creme De Menthe"
-        },
-        {
-            "id": 53,
-            "flavorName": "Banana Creme"
-        },
-        {
-            "id": 54,
-            "flavorName": "Chocolate Cream"
-        },
-        {
-            "id": 55,
-            "flavorName": "Clear Pina Colada"
-        },
-        {
-            "id": 56,
-            "flavorName": "Clear Silver Fox"
-        },
-        {
-            "id": 57,
-            "flavorName": "Amaretto Cream"
-        },
-        {
-            "id": 58,
-            "flavorName": "Dreamsicle"
-        },
-        {
-            "id": 59,
-            "flavorName": "Double Bubble"
-        },
-        {
-            "id": 60,
-            "flavorName": "Electric Slide"
-        },
-        {
-            "id": 61,
-            "flavorName": "Fire"
-        },
-        {
-            "id": 62,
-            "flavorName": "Fuzzy Navel"
-        },
-        {
-            "id": 63,
-            "flavorName": "Fresh Pineapple"
-        },
-        {
-            "id": 64,
-            "flavorName": "Fresh Coconut"
-        },
-        {
-            "id": 65,
-            "flavorName": "Dill Pickle"
-        },
-        {
-            "id": 66,
-            "flavorName": "Egg Custard"
-        },
-        {
-            "id": 67,
-            "flavorName": "Fireball"
-        },
-        {
-            "id": 68,
-            "flavorName": "French Vanilla"
-        },
-        {
-            "id": 69,
-            "flavorName": "Fruitasia"
-        },
-        {
-            "id": 70,
-            "flavorName": "Fruity Pebbles"
-        },
-        {
-            "id": 71,
-            "flavorName": "Fuzzy Monkey"
-        },
-        {
-            "id": 72,
-            "flavorName": "Frogger"
-        },
-        {
-            "id": 73,
-            "flavorName": "Firecracker"
-        },
-        {
-            "id": 74,
-            "flavorName": "Double Butter"
-        },
-        {
-            "id": 75,
-            "flavorName": "Dinosaur"
-        },
-        {
-            "id": 76,
-            "flavorName": "Guava"
-        },
-        {
-            "id": 77,
-            "flavorName": "Grape"
-        },
-        {
-            "id": 78,
-            "flavorName": "Hawaiian"
-        },
-        {
-            "id": 79,
-            "flavorName": "Ghirardelli Caramel Apple"
-        },
-        {
-            "id": 80,
-            "flavorName": "Georgia Peach"
-        },
-        {
-            "id": 81,
-            "flavorName": "Hawaiian Rainbow"
-        },
-        {
-            "id": 82,
-            "flavorName": "Grenade"
-        },
-        {
-            "id": 83,
-            "flavorName": "Green Apple"
-        },
-        {
-            "id": 84,
-            "flavorName": "Honeydew"
-        },
-        {
-            "id": 85,
-            "flavorName": "Hurricane"
-        },
-        {
-            "id": 86,
-            "flavorName": "Ice Cream"
-        },
-        {
-            "id": 87,
-            "flavorName": "Iced Tea"
-        },
-        {
-            "id": 88,
-            "flavorName": "Grammie's Coffee"
-        },
-        {
-            "id": 89,
-            "flavorName": "Go Big Orange"
-        },
-        {
-            "id": 90,
-            "flavorName": "John Deere"
-        },
-        {
-            "id": 91,
-            "flavorName": "Kiwi"
-        },
-        {
-            "id": 92,
-            "flavorName": "Lemon"
-        },
-        {
-            "id": 93,
-            "flavorName": "Lime"
-        },
-        {
-            "id": 94,
-            "flavorName": "Legit"
-        },
-        {
-            "id": 95,
-            "flavorName": "Lemon Lime"
-        },
-        {
-            "id": 96,
-            "flavorName": "Lemonade"
-        },
-        {
-            "id": 97,
-            "flavorName": "Li Hing Mui"
-        },
-        {
-            "id": 98,
-            "flavorName": "J'Makin Me Happy"
-        },
-        {
-            "id": 99,
-            "flavorName": "Key Lime Colada"
-        },
-        {
-            "id": 100,
-            "flavorName": "Key Lime Pie"
-        },
-        {
-            "id": 101,
-            "flavorName": "Key Lime"
-        },
-        {
-            "id": 102,
-            "flavorName": "Lychee"
-        },
-        {
-            "id": 103,
-            "flavorName": "Mango"
-        },
-        {
-            "id": 104,
-            "flavorName": "Mai Tai"
-        },
-        {
-            "id": 105,
-            "flavorName": "Mango Tango"
-        },
-        {
-            "id": 106,
-            "flavorName": "Ninja Turtle"
-        },
-        {
-            "id": 107,
-            "flavorName": "Nectar"
-        },
-        {
-            "id": 108,
-            "flavorName": "Napoleon Dynamite"
-        },
-        {
-            "id": 109,
-            "flavorName": "Orange"
-        },
-        {
-            "id": 110,
-            "flavorName": "Orchid"
-        },
-        {
-            "id": 111,
-            "flavorName": "Margarita"
-        },
-        {
-            "id": 112,
-            "flavorName": "Maui Wowee"
-        },
-        {
-            "id": 113,
-            "flavorName": "Mojito"
-        },
-        {
-            "id": 114,
-            "flavorName": "Orange Pineapple"
-        },
-        {
-            "id": 115,
-            "flavorName": "Natural Margarita"
-        },
-        {
-            "id": 116,
-            "flavorName": "Nerds"
-        },
-        {
-            "id": 117,
-            "flavorName": "Marshmallow"
-        },
-        {
-            "id": 118,
-            "flavorName": "Mardi Gras King Cake"
-        },
-        {
-            "id": 119,
-            "flavorName": "Nectar Cream"
-        },
-        {
-            "id": 120,
-            "flavorName": "Merica"
-        },
-        {
-            "id": 121,
-            "flavorName": "Pineapple"
-        },
-        {
-            "id": 122,
-            "flavorName": "Peach"
-        },
-        {
-            "id": 123,
-            "flavorName": "Pear"
-        },
-        {
-            "id": 124,
-            "flavorName": "Peppermint"
-        },
-        {
-            "id": 125,
-            "flavorName": "Pina Colada"
-        },
-        {
-            "id": 126,
-            "flavorName": "Pink Bubblegum"
-        },
-        {
-            "id": 127,
-            "flavorName": "Pink Lemonade"
-        },
-        {
-            "id": 128,
-            "flavorName": "Purple Bubble"
-        },
-        {
-            "id": 129,
-            "flavorName": "Passionfruit"
-        },
-        {
-            "id": 130,
-            "flavorName": "Papaya"
-        },
-        {
-            "id": 131,
-            "flavorName": "Purple Haze"
-        },
-        {
-            "id": 132,
-            "flavorName": "Raspberry"
-        },
-        {
-            "id": 133,
-            "flavorName": "Rainbow"
-        },
-        {
-            "id": 134,
-            "flavorName": "Root Beer"
-        },
-        {
-            "id": 135,
-            "flavorName": "POG (passionfruit, orange, guava)"
-        },
-        {
-            "id": 136,
-            "flavorName": "Pink Champagne"
-        },
-        {
-            "id": 137,
-            "flavorName": "Plum"
-        },
-        {
-            "id": 138,
-            "flavorName": "Polar Punch"
-        },
-        {
-            "id": 139,
-            "flavorName": "Red Raspbery"
-        },
-        {
-            "id": 140,
-            "flavorName": "Pomegranate"
-        },
-        {
-            "id": 141,
-            "flavorName": "Praline"
-        },
-        {
-            "id": 142,
-            "flavorName": "Red Apple"
-        },
-        {
-            "id": 143,
-            "flavorName": "Red Velvet Cake"
-        },
-        {
-            "id": 144,
-            "flavorName": "Rootbeer Sno Float"
-        },
-        {
-            "id": 145,
-            "flavorName": "Pop's Candy Dish"
-        },
-        {
-            "id": 146,
-            "flavorName": "Peanut Butter"
-        },
-        {
-            "id": 147,
-            "flavorName": "Popeye"
-        },
-        {
-            "id": 148,
-            "flavorName": "Pink Cotton Candy"
-        },
-        {
-            "id": 149,
-            "flavorName": "Pasion"
-        },
-        {
-            "id": 150,
-            "flavorName": "Tiger's Blood"
-        },
-        {
-            "id": 151,
-            "flavorName": "Spearmint"
-        },
-        {
-            "id": 152,
-            "flavorName": "Spiderman"
-        },
-        {
-            "id": 153,
-            "flavorName": "Strawberry"
-        },
-        {
-            "id": 154,
-            "flavorName": "Tutti Fruti"
-        },
-        {
-            "id": 155,
-            "flavorName": "Strawberry Banana"
-        },
-        {
-            "id": 156,
-            "flavorName": "Strawberry Cheesecake"
-        },
-        {
-            "id": 157,
-            "flavorName": "Strawberry Kiwi"
-        },
-        {
-            "id": 158,
-            "flavorName": "Shock Tart"
-        },
-        {
-            "id": 159,
-            "flavorName": "Shrek"
-        },
-        {
-            "id": 160,
-            "flavorName": "Snow Cream"
-        },
-        {
-            "id": 161,
-            "flavorName": "Tangerine"
-        },
-        {
-            "id": 162,
-            "flavorName": "Toxic Waste"
-        },
-        {
-            "id": 163,
-            "flavorName": "Tropical Punch"
-        },
-        {
-            "id": 164,
-            "flavorName": "Strawnilla Shortcake"
-        },
-        {
-            "id": 165,
-            "flavorName": "Strawberry Lemonade"
-        },
-        {
-            "id": 166,
-            "flavorName": "Sour Gummi Worm"
-        },
-        {
-            "id": 167,
-            "flavorName": "Sour Apple"
-        },
-        {
-            "id": 168,
-            "flavorName": "Sour Spray"
-        },
-        {
-            "id": 169,
-            "flavorName": "Sweet Cherry"
-        },
-        {
-            "id": 170,
-            "flavorName": "Strawberry Shortcake"
-        },
-        {
-            "id": 171,
-            "flavorName": "Strawberry Daiquiri"
-        },
-        {
-            "id": 172,
-            "flavorName": "Sea Breeze"
-        },
-        {
-            "id": 173,
-            "flavorName": "Skylite"
-        },
-        {
-            "id": 174,
-            "flavorName": "Sour Cherry"
-        },
-        {
-            "id": 175,
-            "flavorName": "Sour Grape"
-        },
-        {
-            "id": 176,
-            "flavorName": "Sour Tsunami"
-        },
-        {
-            "id": 177,
-            "flavorName": "Sweet Tart"
-        },
-        {
-            "id": 178,
-            "flavorName": "Tamarind"
-        },
-        {
-            "id": 179,
-            "flavorName": "Toothpaste"
-        },
-        {
-            "id": 180,
-            "flavorName": "Super Hero"
-        },
-        {
-            "id": 181,
-            "flavorName": "Unicorn"
-        },
-        {
-            "id": 182,
-            "flavorName": "Shark Attack"
-        },
-        {
-            "id": 183,
-            "flavorName": "Sour Tart"
-        },
-        {
-            "id": 184,
-            "flavorName": "Sunset Beach"
-        },
-        {
-            "id": 185,
-            "flavorName": "Snoberry"
-        },
-        {
-            "id": 186,
-            "flavorName": "Strawberries and Cream"
-        },
-        {
-            "id": 187,
-            "flavorName": "Sunset"
-        },
-        {
-            "id": 188,
-            "flavorName": "Tongue Twister"
-        },
-        {
-            "id": 189,
-            "flavorName": "Sugar Free Cake Batter"
-        },
-        {
-            "id": 190,
-            "flavorName": "Sugar Free Cherry"
-        },
-        {
-            "id": 191,
-            "flavorName": "Sugar Free Coconut"
-        },
-        {
-            "id": 192,
-            "flavorName": "Sugar Free Grape"
-        },
-        {
-            "id": 193,
-            "flavorName": "Sugar Free Lemon"
-        },
-        {
-            "id": 194,
-            "flavorName": "Sugar Free Orange"
-        },
-        {
-            "id": 195,
-            "flavorName": "Surf's Up"
-        },
-        {
-            "id": 196,
-            "flavorName": "Smores"
-        },
-        {
-            "id": 197,
-            "flavorName": "Turtle Pecan"
-        },
-        {
-            "id": 198,
-            "flavorName": "Sugar Free Blue Raspberry"
-        },
-        {
-            "id": 199,
-            "flavorName": "Sugar Free Pina Colada"
-        },
-        {
-            "id": 200,
-            "flavorName": "Sugar Free Tiger's Blood"
-        },
-        {
-            "id": 201,
-            "flavorName": "Sugar Free Wedding Cake"
-        },
-        {
-            "id": 202,
-            "flavorName": "The Titan"
-        },
-        {
-            "id": 203,
-            "flavorName": "Strawberry Margarita"
-        },
-        {
-            "id": 204,
-            "flavorName": "Sugar Free Strawberry"
-        },
-        {
-            "id": 205,
-            "flavorName": "Sugar Free Watermelon"
-        },
-        {
-            "id": 206,
-            "flavorName": "Sugar Free Banana"
-        },
-        {
-            "id": 207,
-            "flavorName": "Sugar Free Hurricane"
-        },
-        {
-            "id": 208,
-            "flavorName": "Some Where on a Beach"
-        },
-        {
-            "id": 209,
-            "flavorName": "Snow Angel"
-        },
-        {
-            "id": 210,
-            "flavorName": "Sugar Free Hawaiian Lemon Lime"
-        },
-        {
-            "id": 211,
-            "flavorName": "Sugar Free Bubblegum"
-        },
-        {
-            "id": 212,
-            "flavorName": "Sugar Free Lime"
-        },
-        {
-            "id": 213,
-            "flavorName": "Sugar Free Peach"
-        },
-        {
-            "id": 214,
-            "flavorName": "Watermelon"
-        },
-        {
-            "id": 215,
-            "flavorName": "Wedding Cake"
-        },
-        {
-            "id": 216,
-            "flavorName": "White Wedding"
-        },
-        {
-            "id": 217,
-            "flavorName": "Vanilla Cola"
-        },
-        {
-            "id": 218,
-            "flavorName": "Wally Bobo"
-        },
-        {
-            "id": 219,
-            "flavorName": "Wild Cherry"
-        },
-        {
-            "id": 220,
-            "flavorName": "Wild Strawberry"
-        },
-        {
-            "id": 221,
-            "flavorName": "Wild Thang"
-        },
-        {
-            "id": 222,
-            "flavorName": "Vanilla"
-        },
-        {
-            "id": 223,
-            "flavorName": "White Chocolate"
-        },
-        {
-            "id": 224,
-            "flavorName": "White Chocolate Cream"
-        }
-    ],
-    "locationsFlavors": [
-        { "id": 1, "flavorId": 1, "locationId": 1 },
-        { "id": 2, "flavorId": 2, "locationId": 1 },
-        { "id": 3, "flavorId": 3, "locationId": 1 },
-        { "id": 4, "flavorId": 4, "locationId": 1 },
-        { "id": 5, "flavorId": 5, "locationId": 1 },
-        { "id": 6, "flavorId": 6, "locationId": 1 },
-        { "id": 7, "flavorId": 7, "locationId": 1 },
-        { "id": 8, "flavorId": 8, "locationId": 1 },
-        { "id": 9, "flavorId": 9, "locationId": 1 },
-        { "id": 10, "flavorId": 10, "locationId": 1 },
-        { "id": 11, "flavorId": 11, "locationId": 1 },
-        { "id": 12, "flavorId": 12, "locationId": 1 },
-        { "id": 13, "flavorId": 13, "locationId": 1 },
-        { "id": 14, "flavorId": 14, "locationId": 1 },
-        { "id": 15, "flavorId": 15, "locationId": 1 },
-        { "id": 16, "flavorId": 16, "locationId": 1 },
-        { "id": 17, "flavorId": 92, "locationId": 1 },
-        { "id": 18, "flavorId": 58, "locationId": 1 },
-        { "id": 19, "flavorId": 59, "locationId": 1 },
-        { "id": 20, "flavorId": 60, "locationId": 1 },
-        { "id": 21, "flavorId": 61, "locationId": 1 },
-        { "id": 22, "flavorId": 62, "locationId": 1 },
-        { "id": 23, "flavorId": 76, "locationId": 1 },
-        { "id": 24, "flavorId": 77, "locationId": 1 },
-        { "id": 25, "flavorId": 78, "locationId": 1 },
-        { "id": 26, "flavorId": 90, "locationId": 1 },
-        { "id": 27, "flavorId": 91, "locationId": 1 },
-        { "id": 28, "flavorId": 93, "locationId": 1 },
-        { "id": 29, "flavorId": 94, "locationId": 1 },
-        { "id": 30, "flavorId": 103, "locationId": 1 },
-        { "id": 31, "flavorId": 104, "locationId": 1 },
-        { "id": 32, "flavorId": 105, "locationId": 1 },
-        { "id": 33, "flavorId": 106, "locationId": 1 },
-        { "id": 34, "flavorId": 107, "locationId": 1 },
-        { "id": 35, "flavorId": 108, "locationId": 1 },
-        { "id": 36, "flavorId": 109, "locationId": 1 },
-        { "id": 37, "flavorId": 110, "locationId": 1 },
-        { "id": 38, "flavorId": 121, "locationId": 1 },
-        { "id": 39, "flavorId": 122, "locationId": 1 },
-        { "id": 40, "flavorId": 123, "locationId": 1 },
-        { "id": 41, "flavorId": 124, "locationId": 1 },
-        { "id": 42, "flavorId": 125, "locationId": 1 },
-        { "id": 43, "flavorId": 126, "locationId": 1 },
-        { "id": 44, "flavorId": 127, "locationId": 1 },
-        { "id": 45, "flavorId": 128, "locationId": 1 },
-        { "id": 46, "flavorId": 129, "locationId": 1 },
-        { "id": 47, "flavorId": 130, "locationId": 1 },
-        { "id": 48, "flavorId": 131, "locationId": 1 },
-        { "id": 49, "flavorId": 132, "locationId": 1 },
-        { "id": 50, "flavorId": 133, "locationId": 1 },
-        { "id": 51, "flavorId": 134, "locationId": 1 },
-        { "id": 52, "flavorId": 150, "locationId": 1 },
-        { "id": 53, "flavorId": 151, "locationId": 1 },
-        { "id": 54, "flavorId": 152, "locationId": 1 },
-        { "id": 55, "flavorId": 153, "locationId": 1 },
-        { "id": 56, "flavorId": 154, "locationId": 1 },
-        { "id": 57, "flavorId": 155, "locationId": 1 },
-        { "id": 58, "flavorId": 156, "locationId": 1 },
-        { "id": 59, "flavorId": 157, "locationId": 1 },
-        { "id": 60, "flavorId": 158, "locationId": 1 },
-        { "id": 61, "flavorId": 159, "locationId": 1 },
-        { "id": 62, "flavorId": 160, "locationId": 1 },
-        { "id": 63, "flavorId": 161, "locationId": 1 },
-        { "id": 64, "flavorId": 162, "locationId": 1 },
-        { "id": 65, "flavorId": 163, "locationId": 1 },
-        { "id": 66, "flavorId": 214, "locationId": 1 },
-        { "id": 67, "flavorId": 215, "locationId": 1 },
-        { "id": 68, "flavorId": 216, "locationId": 1 },
-        { "id": 69, "flavorId": 95, "locationId": 1 },
-        { "id": 70, "flavorId": 8, "locationId": 2 },
-        { "id": 71, "flavorId": 9, "locationId": 2 },
-        { "id": 72, "flavorId": 11, "locationId": 2 },
-        { "id": 73, "flavorId": 12, "locationId": 2 },
-        { "id": 74, "flavorId": 17, "locationId": 2 },
-        { "id": 75, "flavorId": 58, "locationId": 2 },
-        { "id": 76, "flavorId": 63, "locationId": 2 },
-        { "id": 77, "flavorId": 64, "locationId": 2 },
-        { "id": 78, "flavorId": 79, "locationId": 2 },
-        { "id": 79, "flavorId": 80, "locationId": 2 },
-        { "id": 80, "flavorId": 81, "locationId": 2 },
-        { "id": 81, "flavorId": 91, "locationId": 2 },
-        { "id": 82, "flavorId": 93, "locationId": 2 },
-        { "id": 83, "flavorId": 96, "locationId": 2 },
-        { "id": 84, "flavorId": 97, "locationId": 2 },
-        { "id": 85, "flavorId": 103, "locationId": 2 },
-        { "id": 86, "flavorId": 121, "locationId": 2 },
-        { "id": 87, "flavorId": 132, "locationId": 2 },
-        { "id": 88, "flavorId": 135, "locationId": 2 },
-        { "id": 89, "flavorId": 150, "locationId": 2 },
-        { "id": 90, "flavorId": 160, "locationId": 2 },
-        { "id": 91, "flavorId": 164, "locationId": 2 },
-        { "id": 92, "flavorId": 165, "locationId": 2 },
-        { "id": 93, "flavorId": 166, "locationId": 2 },
-        { "id": 94, "flavorId": 167, "locationId": 2 },
-        { "id": 95, "flavorId": 168, "locationId": 2 },
-        { "id": 96, "flavorId": 214, "locationId": 2 },
-        { "id": 97, "flavorId": 215, "locationId": 2 },
-        { "id": 98, "flavorId": 4, "locationId": 3 },
-        { "id": 99, "flavorId": 8, "locationId": 3 },
-        { "id": 100, "flavorId": 9, "locationId": 3 },
-        { "id": 101, "flavorId": 11, "locationId": 3 },
-        { "id": 102, "flavorId": 14, "locationId": 3 },
-        { "id": 103, "flavorId": 16, "locationId": 3 },
-        { "id": 104, "flavorId": 18, "locationId": 3 },
-        { "id": 105, "flavorId": 19, "locationId": 3 },
-        { "id": 106, "flavorId": 20, "locationId": 3 },
-        { "id": 107, "flavorId": 21, "locationId": 3 },
-        { "id": 108, "flavorId": 22, "locationId": 3 },
-        { "id": 109, "flavorId": 23, "locationId": 3 },
-        { "id": 110, "flavorId": 24, "locationId": 3 },
-        { "id": 111, "flavorId": 25, "locationId": 3 },
-        { "id": 112, "flavorId": 26, "locationId": 3 },
-        { "id": 113, "flavorId": 27, "locationId": 3 },
-        { "id": 114, "flavorId": 28, "locationId": 3 },
-        { "id": 115, "flavorId": 29, "locationId": 3 },
-        { "id": 116, "flavorId": 30, "locationId": 3 },
-        { "id": 117, "flavorId": 31, "locationId": 3 },
-        { "id": 118, "flavorId": 32, "locationId": 3 },
-        { "id": 119, "flavorId": 33, "locationId": 3 },
-        { "id": 120, "flavorId": 34, "locationId": 3 },
-        { "id": 121, "flavorId": 35, "locationId": 3 },
-        { "id": 122, "flavorId": 36, "locationId": 3 },
-        { "id": 123, "flavorId": 58, "locationId": 3 },
-        { "id": 124, "flavorId": 62, "locationId": 3 },
-        { "id": 125, "flavorId": 65, "locationId": 3 },
-        { "id": 126, "flavorId": 66, "locationId": 3 },
-        { "id": 127, "flavorId": 67, "locationId": 3 },
-        { "id": 128, "flavorId": 68, "locationId": 3 },
-        { "id": 129, "flavorId": 69, "locationId": 3 },
-        { "id": 130, "flavorId": 70, "locationId": 3 },
-        { "id": 131, "flavorId": 71, "locationId": 3 },
-        { "id": 132, "flavorId": 72, "locationId": 3 },
-        { "id": 133, "flavorId": 76, "locationId": 3 },
-        { "id": 134, "flavorId": 77, "locationId": 3 },
-        { "id": 135, "flavorId": 78, "locationId": 3 },
-        { "id": 136, "flavorId": 80, "locationId": 3 },
-        { "id": 137, "flavorId": 82, "locationId": 3 },
-        { "id": 138, "flavorId": 83, "locationId": 3 },
-        { "id": 139, "flavorId": 84, "locationId": 3 },
-        { "id": 140, "flavorId": 85, "locationId": 3 },
-        { "id": 141, "flavorId": 86, "locationId": 3 },
-        { "id": 142, "flavorId": 87, "locationId": 3 },
-        { "id": 143, "flavorId": 91, "locationId": 3 },
-        { "id": 144, "flavorId": 92, "locationId": 3 },
-        { "id": 145, "flavorId": 93, "locationId": 3 },
-        { "id": 146, "flavorId": 95, "locationId": 3 },
-        { "id": 147, "flavorId": 96, "locationId": 3 },
-        { "id": 148, "flavorId": 98, "locationId": 3 },
-        { "id": 149, "flavorId": 103, "locationId": 3 },
-        { "id": 150, "flavorId": 104, "locationId": 3 },
-        { "id": 151, "flavorId": 107, "locationId": 3 },
-        { "id": 152, "flavorId": 109, "locationId": 3 },
-        { "id": 153, "flavorId": 111, "locationId": 3 },
-        { "id": 154, "flavorId": 112, "locationId": 3 },
-        { "id": 155, "flavorId": 113, "locationId": 3 },
-        { "id": 156, "flavorId": 114, "locationId": 3 },
-        { "id": 157, "flavorId": 121, "locationId": 3 },
-        { "id": 158, "flavorId": 122, "locationId": 3 },
-        { "id": 159, "flavorId": 125, "locationId": 3 },
-        { "id": 160, "flavorId": 126, "locationId": 3 },
-        { "id": 161, "flavorId": 127, "locationId": 3 },
-        { "id": 162, "flavorId": 129, "locationId": 3 },
-        { "id": 163, "flavorId": 130, "locationId": 3 },
-        { "id": 164, "flavorId": 133, "locationId": 3 },
-        { "id": 165, "flavorId": 134, "locationId": 3 },
-        { "id": 166, "flavorId": 135, "locationId": 3 },
-        { "id": 167, "flavorId": 136, "locationId": 3 },
-        { "id": 168, "flavorId": 137, "locationId": 3 },
-        { "id": 169, "flavorId": 138, "locationId": 3 },
-        { "id": 170, "flavorId": 139, "locationId": 3 },
-        { "id": 171, "flavorId": 140, "locationId": 3 },
-        { "id": 172, "flavorId": 141, "locationId": 3 },
-        { "id": 173, "flavorId": 142, "locationId": 3 },
-        { "id": 174, "flavorId": 143, "locationId": 3 },
-        { "id": 175, "flavorId": 150, "locationId": 3 },
-        { "id": 176, "flavorId": 151, "locationId": 3 },
-        { "id": 177, "flavorId": 153, "locationId": 3 },
-        { "id": 178, "flavorId": 154, "locationId": 3 },
-        { "id": 179, "flavorId": 156, "locationId": 3 },
-        { "id": 180, "flavorId": 163, "locationId": 3 },
-        { "id": 181, "flavorId": 167, "locationId": 3 },
-        { "id": 182, "flavorId": 169, "locationId": 3 },
-        { "id": 183, "flavorId": 170, "locationId": 3 },
-        { "id": 184, "flavorId": 171, "locationId": 3 },
-        { "id": 185, "flavorId": 172, "locationId": 3 },
-        { "id": 186, "flavorId": 173, "locationId": 3 },
-        { "id": 187, "flavorId": 174, "locationId": 3 },
-        { "id": 188, "flavorId": 175, "locationId": 3 },
-        { "id": 189, "flavorId": 176, "locationId": 3 },
-        { "id": 190, "flavorId": 177, "locationId": 3 },
-        { "id": 191, "flavorId": 178, "locationId": 3 },
-        { "id": 192, "flavorId": 179, "locationId": 3 },
-        { "id": 193, "flavorId": 180, "locationId": 3 },
-        { "id": 194, "flavorId": 181, "locationId": 3 },
-        { "id": 195, "flavorId": 182, "locationId": 3 },
-        { "id": 196, "flavorId": 214, "locationId": 3 },
-        { "id": 197, "flavorId": 215, "locationId": 3 },
-        { "id": 198, "flavorId": 217, "locationId": 3 },
-        { "id": 199, "flavorId": 218, "locationId": 3 },
-        { "id": 200, "flavorId": 219, "locationId": 3 },
-        { "id": 201, "flavorId": 220, "locationId": 3 },
-        { "id": 202, "flavorId": 221, "locationId": 3 },
-        { "id": 203, "flavorId": 8, "locationId": 4 },
-        { "id": 204, "flavorId": 9, "locationId": 4 },
-        { "id": 205, "flavorId": 12, "locationId": 4 },
-        { "id": 206, "flavorId": 14, "locationId": 4 },
-        { "id": 207, "flavorId": 16, "locationId": 4 },
-        { "id": 208, "flavorId": 19, "locationId": 4 },
-        { "id": 209, "flavorId": 22, "locationId": 4 },
-        { "id": 210, "flavorId": 37, "locationId": 4 },
-        { "id": 211, "flavorId": 77, "locationId": 4 },
-        { "id": 212, "flavorId": 83, "locationId": 4 },
-        { "id": 213, "flavorId": 91, "locationId": 4 },
-        { "id": 214, "flavorId": 96, "locationId": 4 },
-        { "id": 215, "flavorId": 99, "locationId": 4 },
-        { "id": 216, "flavorId": 103, "locationId": 4 },
-        { "id": 217, "flavorId": 109, "locationId": 4 },
-        { "id": 218, "flavorId": 111, "locationId": 4 },
-        { "id": 219, "flavorId": 121, "locationId": 4 },
-        { "id": 220, "flavorId": 122, "locationId": 4 },
-        { "id": 221, "flavorId": 125, "locationId": 4 },
-        { "id": 222, "flavorId": 133, "locationId": 4 },
-        { "id": 223, "flavorId": 150, "locationId": 4 },
-        { "id": 224, "flavorId": 153, "locationId": 4 },
-        { "id": 225, "flavorId": 156, "locationId": 4 },
-        { "id": 226, "flavorId": 214, "locationId": 4 },
-        { "id": 227, "flavorId": 14, "locationId": 5 },
-        { "id": 228, "flavorId": 16, "locationId": 5 },
-        { "id": 229, "flavorId": 34, "locationId": 5 },
-        { "id": 230, "flavorId": 37, "locationId": 5 },
-        { "id": 231, "flavorId": 38, "locationId": 5 },
-        { "id": 232, "flavorId": 76, "locationId": 5 },
-        { "id": 233, "flavorId": 81, "locationId": 5 },
-        { "id": 234, "flavorId": 100, "locationId": 5 },
-        { "id": 235, "flavorId": 115, "locationId": 5 },
-        { "id": 236, "flavorId": 116, "locationId": 5 },
-        { "id": 237, "flavorId": 144, "locationId": 5 },
-        { "id": 238, "flavorId": 170, "locationId": 5 },
-        { "id": 239, "flavorId": 183, "locationId": 5 },
-        { "id": 240, "flavorId": 184, "locationId": 5 },
-        { "id": 241, "flavorId": 185, "locationId": 5 },
-        { "id": 242, "flavorId": 186, "locationId": 5 },
-        { "id": 243, "flavorId": 5, "locationId": 6 },
-        { "id": 244, "flavorId": 8, "locationId": 6 },
-        { "id": 245, "flavorId": 9, "locationId": 6 },
-        { "id": 246, "flavorId": 11, "locationId": 6 },
-        { "id": 247, "flavorId": 12, "locationId": 6 },
-        { "id": 248, "flavorId": 13, "locationId": 6 },
-        { "id": 249, "flavorId": 14, "locationId": 6 },
-        { "id": 250, "flavorId": 22, "locationId": 6 },
-        { "id": 251, "flavorId": 23, "locationId": 6 },
-        { "id": 252, "flavorId": 32, "locationId": 6 },
-        { "id": 253, "flavorId": 34, "locationId": 6 },
-        { "id": 254, "flavorId": 39, "locationId": 6 },
-        { "id": 255, "flavorId": 40, "locationId": 6 },
-        { "id": 256, "flavorId": 41, "locationId": 6 },
-        { "id": 257, "flavorId": 42, "locationId": 6 },
-        { "id": 258, "flavorId": 43, "locationId": 6 },
-        { "id": 259, "flavorId": 44, "locationId": 6 },
-        { "id": 260, "flavorId": 45, "locationId": 6 },
-        { "id": 261, "flavorId": 46, "locationId": 6 },
-        { "id": 262, "flavorId": 47, "locationId": 6 },
-        { "id": 263, "flavorId": 58, "locationId": 6 },
-        { "id": 264, "flavorId": 66, "locationId": 6 },
-        { "id": 265, "flavorId": 73, "locationId": 6 },
-        { "id": 266, "flavorId": 77, "locationId": 6 },
-        { "id": 267, "flavorId": 83, "locationId": 6 },
-        { "id": 268, "flavorId": 88, "locationId": 6 },
-        { "id": 269, "flavorId": 92, "locationId": 6 },
-        { "id": 270, "flavorId": 93, "locationId": 6 },
-        { "id": 271, "flavorId": 100, "locationId": 6 },
-        { "id": 272, "flavorId": 103, "locationId": 6 },
-        { "id": 273, "flavorId": 109, "locationId": 6 },
-        { "id": 274, "flavorId": 121, "locationId": 6 },
-        { "id": 275, "flavorId": 122, "locationId": 6 },
-        { "id": 276, "flavorId": 125, "locationId": 6 },
-        { "id": 277, "flavorId": 126, "locationId": 6 },
-        { "id": 278, "flavorId": 133, "locationId": 6 },
-        { "id": 279, "flavorId": 134, "locationId": 6 },
-        { "id": 280, "flavorId": 145, "locationId": 6 },
-        { "id": 281, "flavorId": 150, "locationId": 6 },
-        { "id": 282, "flavorId": 153, "locationId": 6 },
-        { "id": 283, "flavorId": 154, "locationId": 6 },
-        { "id": 284, "flavorId": 165, "locationId": 6 },
-        { "id": 285, "flavorId": 174, "locationId": 6 },
-        { "id": 286, "flavorId": 175, "locationId": 6 },
-        { "id": 287, "flavorId": 181, "locationId": 6 },
-        { "id": 288, "flavorId": 187, "locationId": 6 },
-        { "id": 289, "flavorId": 188, "locationId": 6 },
-        { "id": 290, "flavorId": 189, "locationId": 6 },
-        { "id": 291, "flavorId": 190, "locationId": 6 },
-        { "id": 292, "flavorId": 191, "locationId": 6 },
-        { "id": 293, "flavorId": 192, "locationId": 6 },
-        { "id": 294, "flavorId": 193, "locationId": 6 },
-        { "id": 295, "flavorId": 194, "locationId": 6 },
-        { "id": 296, "flavorId": 214, "locationId": 6 },
-        { "id": 297, "flavorId": 215, "locationId": 6 },
-        { "id": 298, "flavorId": 222, "locationId": 6 },
-        { "id": 299, "flavorId": 8, "locationId": 7 },
-        { "id": 300, "flavorId": 9, "locationId": 7 },
-        { "id": 301, "flavorId": 12, "locationId": 7 },
-        { "id": 302, "flavorId": 14, "locationId": 7 },
-        { "id": 303, "flavorId": 16, "locationId": 7 },
-        { "id": 304, "flavorId": 18, "locationId": 7 },
-        { "id": 305, "flavorId": 19, "locationId": 7 },
-        { "id": 306, "flavorId": 20, "locationId": 7 },
-        { "id": 307, "flavorId": 21, "locationId": 7 },
-        { "id": 308, "flavorId": 31, "locationId": 7 },
-        { "id": 309, "flavorId": 32, "locationId": 7 },
-        { "id": 310, "flavorId": 36, "locationId": 7 },
-        { "id": 311, "flavorId": 48, "locationId": 7 },
-        { "id": 312, "flavorId": 49, "locationId": 7 },
-        { "id": 313, "flavorId": 50, "locationId": 7 },
-        { "id": 314, "flavorId": 58, "locationId": 7 },
-        { "id": 315, "flavorId": 77, "locationId": 7 },
-        { "id": 316, "flavorId": 78, "locationId": 7 },
-        { "id": 317, "flavorId": 86, "locationId": 7 },
-        { "id": 318, "flavorId": 92, "locationId": 7 },
-        { "id": 319, "flavorId": 100, "locationId": 7 },
-        { "id": 320, "flavorId": 101, "locationId": 7 },
-        { "id": 321, "flavorId": 103, "locationId": 7 },
-        { "id": 322, "flavorId": 109, "locationId": 7 },
-        { "id": 323, "flavorId": 117, "locationId": 7 },
-        { "id": 324, "flavorId": 122, "locationId": 7 },
-        { "id": 325, "flavorId": 121, "locationId": 7 },
-        { "id": 326, "flavorId": 125, "locationId": 7 },
-        { "id": 327, "flavorId": 127, "locationId": 7 },
-        { "id": 328, "flavorId": 133, "locationId": 7 },
-        { "id": 329, "flavorId": 138, "locationId": 7 },
-        { "id": 330, "flavorId": 150, "locationId": 7 },
-        { "id": 331, "flavorId": 153, "locationId": 7 },
-        { "id": 332, "flavorId": 154, "locationId": 7 },
-        { "id": 333, "flavorId": 167, "locationId": 7 },
-        { "id": 334, "flavorId": 170, "locationId": 7 },
-        { "id": 335, "flavorId": 173, "locationId": 7 },
-        { "id": 336, "flavorId": 174, "locationId": 7 },
-        { "id": 337, "flavorId": 190, "locationId": 7 },
-        { "id": 338, "flavorId": 195, "locationId": 7 },
-        { "id": 339, "flavorId": 196, "locationId": 7 },
-        { "id": 340, "flavorId": 197, "locationId": 7 },
-        { "id": 341, "flavorId": 198, "locationId": 7 },
-        { "id": 342, "flavorId": 199, "locationId": 7 },
-        { "id": 343, "flavorId": 200, "locationId": 7 },
-        { "id": 344, "flavorId": 201, "locationId": 7 },
-        { "id": 345, "flavorId": 214, "locationId": 7 },
-        { "id": 346, "flavorId": 215, "locationId": 7 },
-        { "id": 347, "flavorId": 222, "locationId": 7 },
-        { "id": 348, "flavorId": 4, "locationId": 8 },
-        { "id": 349, "flavorId": 6, "locationId": 8 },
-        { "id": 350, "flavorId": 7, "locationId": 8 },
-        { "id": 351, "flavorId": 8, "locationId": 8 },
-        { "id": 352, "flavorId": 9, "locationId": 8 },
-        { "id": 353, "flavorId": 11, "locationId": 8 },
-        { "id": 354, "flavorId": 12, "locationId": 8 },
-        { "id": 355, "flavorId": 14, "locationId": 8 },
-        { "id": 356, "flavorId": 17, "locationId": 8 },
-        { "id": 357, "flavorId": 20, "locationId": 8 },
-        { "id": 358, "flavorId": 22, "locationId": 8 },
-        { "id": 359, "flavorId": 23, "locationId": 8 },
-        { "id": 360, "flavorId": 27, "locationId": 8 },
-        { "id": 361, "flavorId": 38, "locationId": 8 },
-        { "id": 362, "flavorId": 42, "locationId": 8 },
-        { "id": 363, "flavorId": 51, "locationId": 8 },
-        { "id": 364, "flavorId": 52, "locationId": 8 },
-        { "id": 365, "flavorId": 53, "locationId": 8 },
-        { "id": 366, "flavorId": 58, "locationId": 8 },
-        { "id": 367, "flavorId": 74, "locationId": 8 },
-        { "id": 368, "flavorId": 75, "locationId": 8 },
-        { "id": 369, "flavorId": 77, "locationId": 8 },
-        { "id": 370, "flavorId": 78, "locationId": 8 },
-        { "id": 371, "flavorId": 80, "locationId": 8 },
-        { "id": 372, "flavorId": 85, "locationId": 8 },
-        { "id": 373, "flavorId": 86, "locationId": 8 },
-        { "id": 374, "flavorId": 96, "locationId": 8 },
-        { "id": 375, "flavorId": 102, "locationId": 8 },
-        { "id": 376, "flavorId": 103, "locationId": 8 },
-        { "id": 377, "flavorId": 107, "locationId": 8 },
-        { "id": 378, "flavorId": 109, "locationId": 8 },
-        { "id": 379, "flavorId": 118, "locationId": 8 },
-        { "id": 380, "flavorId": 119, "locationId": 8 },
-        { "id": 381, "flavorId": 125, "locationId": 8 },
-        { "id": 382, "flavorId": 146, "locationId": 8 },
-        { "id": 383, "flavorId": 147, "locationId": 8 },
-        { "id": 384, "flavorId": 148, "locationId": 8 },
-        { "id": 385, "flavorId": 150, "locationId": 8 },
-        { "id": 386, "flavorId": 153, "locationId": 8 },
-        { "id": 387, "flavorId": 167, "locationId": 8 },
-        { "id": 388, "flavorId": 190, "locationId": 8 },
-        { "id": 389, "flavorId": 191, "locationId": 8 },
-        { "id": 390, "flavorId": 192, "locationId": 8 },
-        { "id": 391, "flavorId": 194, "locationId": 8 },
-        { "id": 392, "flavorId": 200, "locationId": 8 },
-        { "id": 393, "flavorId": 201, "locationId": 8 },
-        { "id": 394, "flavorId": 202, "locationId": 8 },
-        { "id": 395, "flavorId": 203, "locationId": 8 },
-        { "id": 396, "flavorId": 204, "locationId": 8 },
-        { "id": 397, "flavorId": 205, "locationId": 8 },
-        { "id": 398, "flavorId": 206, "locationId": 8 },
-        { "id": 399, "flavorId": 207, "locationId": 8 },
-        { "id": 400, "flavorId": 214, "locationId": 8 },
-        { "id": 401, "flavorId": 215, "locationId": 8 },
-        { "id": 402, "flavorId": 222, "locationId": 8 },
-        { "id": 403, "flavorId": 223, "locationId": 8 },
-        { "id": 404, "flavorId": 224, "locationId": 8 },
-        { "id": 405, "flavorId": 6, "locationId": 9 },
-        { "id": 406, "flavorId": 8, "locationId": 9 },
-        { "id": 407, "flavorId": 9, "locationId": 9 },
-        { "id": 408, "flavorId": 16, "locationId": 9 },
-        { "id": 409, "flavorId": 18, "locationId": 9 },
-        { "id": 410, "flavorId": 19, "locationId": 9 },
-        { "id": 411, "flavorId": 20, "locationId": 9 },
-        { "id": 412, "flavorId": 37, "locationId": 9 },
-        { "id": 413, "flavorId": 45, "locationId": 9 },
-        { "id": 414, "flavorId": 50, "locationId": 9 },
-        { "id": 415, "flavorId": 54, "locationId": 9 },
-        { "id": 416, "flavorId": 55, "locationId": 9 },
-        { "id": 417, "flavorId": 56, "locationId": 9 },
-        { "id": 418, "flavorId": 58, "locationId": 9 },
-        { "id": 419, "flavorId": 77, "locationId": 9 },
-        { "id": 420, "flavorId": 89, "locationId": 9 },
-        { "id": 421, "flavorId": 100, "locationId": 9 },
-        { "id": 422, "flavorId": 101, "locationId": 9 },
-        { "id": 423, "flavorId": 103, "locationId": 9 },
-        { "id": 424, "flavorId": 109, "locationId": 9 },
-        { "id": 425, "flavorId": 120, "locationId": 9 },
-        { "id": 426, "flavorId": 121, "locationId": 9 },
-        { "id": 427, "flavorId": 122, "locationId": 9 },
-        { "id": 428, "flavorId": 127, "locationId": 9 },
-        { "id": 429, "flavorId": 133, "locationId": 9 },
-        { "id": 430, "flavorId": 134, "locationId": 9 },
-        { "id": 431, "flavorId": 149, "locationId": 9 },
-        { "id": 432, "flavorId": 150, "locationId": 9 },
-        { "id": 433, "flavorId": 153, "locationId": 9 },
-        { "id": 434, "flavorId": 167, "locationId": 9 },
-        { "id": 435, "flavorId": 170, "locationId": 9 },
-        { "id": 436, "flavorId": 184, "locationId": 9 },
-        { "id": 437, "flavorId": 208, "locationId": 9 },
-        { "id": 438, "flavorId": 209, "locationId": 9 },
-        { "id": 439, "flavorId": 210, "locationId": 9 },
-        { "id": 440, "flavorId": 211, "locationId": 9 },
-        { "id": 441, "flavorId": 212, "locationId": 9 },
-        { "id": 442, "flavorId": 214, "locationId": 9 },
-        { "id": 443, "flavorId": 215, "locationId": 9 },
-        { "id": 444, "flavorId": 223, "locationId": 9 },
-        { "id": 445, "flavorId": 7, "locationId": 10 },
-        { "id": 446, "flavorId": 8, "locationId": 10 },
-        { "id": 447, "flavorId": 9, "locationId": 10 },
-        { "id": 448, "flavorId": 12, "locationId": 10 },
-        { "id": 449, "flavorId": 14, "locationId": 10 },
-        { "id": 450, "flavorId": 16, "locationId": 10 },
-        { "id": 451, "flavorId": 22, "locationId": 10 },
-        { "id": 452, "flavorId": 34, "locationId": 10 },
-        { "id": 453, "flavorId": 54, "locationId": 10 },
-        { "id": 454, "flavorId": 57, "locationId": 10 },
-        { "id": 455, "flavorId": 58, "locationId": 10 },
-        { "id": 456, "flavorId": 77, "locationId": 10 },
-        { "id": 457, "flavorId": 78, "locationId": 10 },
-        { "id": 458, "flavorId": 86, "locationId": 10 },
-        { "id": 459, "flavorId": 95, "locationId": 10 },
-        { "id": 460, "flavorId": 103, "locationId": 10 },
-        { "id": 461, "flavorId": 109, "locationId": 10 },
-        { "id": 462, "flavorId": 111, "locationId": 10 },
-        { "id": 463, "flavorId": 119, "locationId": 10 },
-        { "id": 464, "flavorId": 122, "locationId": 10 },
-        { "id": 465, "flavorId": 125, "locationId": 10 },
-        { "id": 466, "flavorId": 134, "locationId": 10 },
-        { "id": 467, "flavorId": 150, "locationId": 10 },
-        { "id": 468, "flavorId": 153, "locationId": 10 },
-        { "id": 469, "flavorId": 177, "locationId": 10 },
-        { "id": 470, "flavorId": 204, "locationId": 10 },
-        { "id": 471, "flavorId": 205, "locationId": 10 },
-        { "id": 472, "flavorId": 213, "locationId": 10 },
-        { "id": 473, "flavorId": 214, "locationId": 10 },
-        { "id": 474, "flavorId": 215, "locationId": 10 },
-        { "id": 475, "flavorId": 222, "locationId": 10 }
-    ],
-    "createdFlavors": [
-        {
-            "id": 1,
-            "userId": 8,
-            "userName": "Haley Hickey",
-            "message": "I love the blend of berries for snow cones.",
-            "flavorName": "Berries and Giggles",
-            "flavorId1": 153,
-            "flavorId2": 8
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jay Gordon",
+      "email": "jay.jay@gordon.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 2,
+      "fullName": "Wendy Hicks",
+      "email": "wendy@hicks.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 3,
+      "fullName": "Willow Berry",
+      "email": "willow@berry.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 4,
+      "fullName": "Helen Fisher",
+      "email": "helen@fisher.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 5,
+      "fullName": "Francis Little",
+      "email": "francis@little.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 6,
+      "fullName": "Liz Staple",
+      "email": "liz@staple.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 7,
+      "fullName": "Josh Rittenberry",
+      "email": "josh@rittenberry.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "id": 8,
+      "fullName": "Haley Hickey",
+      "email": "haley@hickey.com",
+      "profileImg": "",
+      "Bio": ""
+    },
+    {
+      "email": "tiffani@burk.com",
+      "fullName": "Tiffani Burk",
+      "id": 9
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "imgPath": "/images/SnoLogo.png"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "img": "/location/Jerry'sImg.jpg",
+      "LocationId": 1
+    },
+    {
+      "id": 2,
+      "img": "/location/PelicansImg.jpg",
+      "LocationId": 3
+    },
+    {
+      "id": 3,
+      "img": "/location/BlueMonkey.jpg",
+      "LocationId": 2
+    },
+    {
+      "id": 4,
+      "img": "/location/SebsImg.PNG",
+      "LocationId": 4
+    },
+    {
+      "id": 5,
+      "img": "/location/CottonImg.jpg",
+      "LocationId": 5
+    },
+    {
+      "id": 6,
+      "img": "/location/MotsImg.jpg",
+      "LocationId": 6
+    },
+    {
+      "id": 7,
+      "img": "/location/SharkysImg.PNG",
+      "LocationId": 7
+    },
+    {
+      "id": 8,
+      "img": "/location/MagImg.jpg",
+      "LocationId": 8
+    },
+    {
+      "id": 9,
+      "img": "/location/BeachImg.jpg",
+      "LocationId": 9
+    },
+    {
+      "id": 10,
+      "img": "/location/StreetImg.jpg",
+      "LocationId": 10
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Jerry's Snow Cones",
+      "address": "1657 Wells Station Road, Memphis, TN 38108",
+      "city": "Memphis",
+      "imgPath": "/images/SnoJerry.png",
+      "photo": ""
+    },
+    {
+      "id": 2,
+      "name": "Blue Monkey Shaved Ice",
+      "address": "2611 12th Ave S., Nashville, TN 37204",
+      "city": "Nashville",
+      "imgPath": "/images/SnoMonkey.png",
+      "photo": ""
+    },
+    {
+      "id": 3,
+      "name": "Pelican's SnoBalls",
+      "address": "5900 Kingston Pike, Knoxville, TN 37919",
+      "city": "Knoxville",
+      "imgPath": "/images/SnoPelican.png",
+      "photo": ""
+    },
+    {
+      "id": 4,
+      "name": "Seb's Shaved Ice",
+      "address": "3100 N Highland Ave, Jackson, TN 38305",
+      "city": "Jackson",
+      "imgPath": "/images/SnoSeb's.png",
+      "photo": ""
+    },
+    {
+      "id": 5,
+      "name": "Cotton and Snow",
+      "address": "5055 Broadway Place, Nashville, TN 37203",
+      "city": "Nashville",
+      "imgPath": "/images/SnoCotton.png",
+      "photo": ""
+    },
+    {
+      "id": 6,
+      "name": "Mot's Shaved Ice",
+      "address": "537 S College St, Winchester, TN 37398",
+      "city": "Winchester",
+      "imgPath": "/images/SnoMots.png",
+      "photo": ""
+    },
+    {
+      "id": 7,
+      "name": "Sharky's Snoballs",
+      "address": "104 N Maple St, Lebanon, TN 37087",
+      "city": "Lebanon",
+      "imgPath": "/images/SnoSharky.png",
+      "photo": ""
+    },
+    {
+      "id": 8,
+      "name": "Magnolia's Southern Snoballs",
+      "address": "1219 Hazelwood Dr, Smyrna, TN 37167",
+      "city": "Smyrna",
+      "imgPath": "/images/SnoMagnolia.png",
+      "photo": ""
+    },
+    {
+      "id": 9,
+      "name": "Beach Company Chill Shaved Ice",
+      "address": "127 Locke Ave, Spring Hill, TN 37174",
+      "city": "Spring Hill",
+      "imgPath": "/images/SnoBeach.png",
+      "photo": ""
+    },
+    {
+      "id": 10,
+      "name": "Tchoupitoulas Street Snoballs",
+      "address": "213 5th Ave N, Franklin, TN 37064",
+      "city": "Franklin",
+      "imgPath": "/images/SnoStreet.png",
+      "photo": ""
+    }
+  ],
+  "featuredFlavors": [
+    {
+      "id": 1,
+      "flavorName": "Hurricane Elvis",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "flavorName": "Tickle Me Sweet",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "flavorName": "Roller Coaster",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "flavorName": "Watermelon Basil",
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "flavorName": "Lilikoi",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "flavorName": "Key Lime Pie",
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "flavorName": "Dinosaur",
+      "locationId": 3
+    },
+    {
+      "id": 8,
+      "flavorName": "Pretty Princess",
+      "locationId": 3
+    },
+    {
+      "id": 9,
+      "flavorName": "Gone Fishin'",
+      "locationId": 3
+    },
+    {
+      "id": 10,
+      "flavorName": "Nerd Swirly",
+      "locationId": 4
+    },
+    {
+      "id": 11,
+      "flavorName": "Grizzberry",
+      "locationId": 4
+    },
+    {
+      "id": 12,
+      "flavorName": "Cereal Milk",
+      "locationId": 4
+    },
+    {
+      "id": 13,
+      "flavorName": "Banana Pudding",
+      "locationId": 5
+    },
+    {
+      "id": 14,
+      "flavorName": "Fat Tuesday",
+      "locationId": 5
+    },
+    {
+      "id": 15,
+      "flavorName": "Spongebob",
+      "locationId": 5
+    },
+    {
+      "id": 16,
+      "flavorName": "Banana Split",
+      "locationId": 6
+    },
+    {
+      "id": 17,
+      "flavorName": "Peach Cobbler",
+      "locationId": 6
+    },
+    {
+      "id": 18,
+      "flavorName": "Grandma's Candy Bar",
+      "locationId": 6
+    },
+    {
+      "id": 19,
+      "flavorName": "Pirate's Gold",
+      "locationId": 7
+    },
+    {
+      "id": 20,
+      "flavorName": "Shark Bite",
+      "locationId": 7
+    },
+    {
+      "id": 21,
+      "flavorName": "Star Fish Kiss",
+      "locationId": 7
+    },
+    {
+      "id": 22,
+      "flavorName": "Reese's Peanut Butter Cup",
+      "locationId": 8
+    },
+    {
+      "id": 23,
+      "flavorName": "The Grasshopper",
+      "locationId": 8
+    },
+    {
+      "id": 24,
+      "flavorName": "Pink Lady",
+      "locationId": 8
+    },
+    {
+      "id": 25,
+      "flavorName": "Cookies N' Cream",
+      "locationId": 9
+    },
+    {
+      "id": 26,
+      "flavorName": "MuleTown",
+      "locationId": 9
+    },
+    {
+      "id": 27,
+      "flavorName": "Beach Co. Over the Rainbow",
+      "locationId": 9
+    },
+    {
+      "id": 28,
+      "flavorName": "Granny Smith Apple",
+      "locationId": 10
+    },
+    {
+      "id": 29,
+      "flavorName": "Spearmint",
+      "locationId": 10
+    },
+    {
+      "id": 30,
+      "flavorName": "Cafe Au Lait",
+      "locationId": 10
+    }
+  ],
+  "flavors": [
+    {
+      "id": 1,
+      "flavorName": "Almond Joy"
+    },
+    {
+      "id": 2,
+      "flavorName": "Apple"
+    },
+    {
+      "id": 3,
+      "flavorName": "Apricot"
+    },
+    {
+      "id": 4,
+      "flavorName": "Blackberry"
+    },
+    {
+      "id": 5,
+      "flavorName": "Blue Coconut"
+    },
+    {
+      "id": 6,
+      "flavorName": "Blue Hawaiian"
+    },
+    {
+      "id": 7,
+      "flavorName": "Bubblegum"
+    },
+    {
+      "id": 8,
+      "flavorName": "Blue Raspberry"
+    },
+    {
+      "id": 9,
+      "flavorName": "Banana"
+    },
+    {
+      "id": 10,
+      "flavorName": "Candy Crush"
+    },
+    {
+      "id": 11,
+      "flavorName": "Cheesecake"
+    },
+    {
+      "id": 12,
+      "flavorName": "Cherry"
+    },
+    {
+      "id": 13,
+      "flavorName": "Chocolate"
+    },
+    {
+      "id": 14,
+      "flavorName": "Coconut"
+    },
+    {
+      "id": 15,
+      "flavorName": "Cookie Dough"
+    },
+    {
+      "id": 16,
+      "flavorName": "Cotton Candy"
+    },
+    {
+      "id": 17,
+      "flavorName": "Coconut Cream"
+    },
+    {
+      "id": 18,
+      "flavorName": "Bahama Mama"
+    },
+    {
+      "id": 19,
+      "flavorName": "Birthday Cake"
+    },
+    {
+      "id": 20,
+      "flavorName": "Black Cherry"
+    },
+    {
+      "id": 21,
+      "flavorName": "Blue Bubblegum"
+    },
+    {
+      "id": 22,
+      "flavorName": "Blueberry"
+    },
+    {
+      "id": 23,
+      "flavorName": "Butterscotch"
+    },
+    {
+      "id": 24,
+      "flavorName": "Butterfly Kiss"
+    },
+    {
+      "id": 25,
+      "flavorName": "Candy Apple"
+    },
+    {
+      "id": 26,
+      "flavorName": "Cantaloupe"
+    },
+    {
+      "id": 27,
+      "flavorName": "Caramel"
+    },
+    {
+      "id": 28,
+      "flavorName": "Carrot Cake"
+    },
+    {
+      "id": 29,
+      "flavorName": "Cherry Cola"
+    },
+    {
+      "id": 30,
+      "flavorName": "Cherry Margarita"
+    },
+    {
+      "id": 31,
+      "flavorName": "Clear Bubblegum"
+    },
+    {
+      "id": 32,
+      "flavorName": "Clear Cherry"
+    },
+    {
+      "id": 33,
+      "flavorName": "Clear Grape"
+    },
+    {
+      "id": 34,
+      "flavorName": "Coffee"
+    },
+    {
+      "id": 35,
+      "flavorName": "Cola"
+    },
+    {
+      "id": 36,
+      "flavorName": "Cream Soda"
+    },
+    {
+      "id": 37,
+      "flavorName": "Butter Beer"
+    },
+    {
+      "id": 38,
+      "flavorName": "Coconut Cream Pie"
+    },
+    {
+      "id": 39,
+      "flavorName": "Caramel Apple"
+    },
+    {
+      "id": 40,
+      "flavorName": "Banana Cream Pie"
+    },
+    {
+      "id": 41,
+      "flavorName": "Bluebery Cobbler"
+    },
+    {
+      "id": 42,
+      "flavorName": "Blue Cotton Candy"
+    },
+    {
+      "id": 43,
+      "flavorName": "Cake Batter"
+    },
+    {
+      "id": 44,
+      "flavorName": "Clear Blue Raspberry"
+    },
+    {
+      "id": 45,
+      "flavorName": "Clear Coconut"
+    },
+    {
+      "id": 46,
+      "flavorName": "Clear Cheesecake"
+    },
+    {
+      "id": 47,
+      "flavorName": "Clear Wedding Cake"
+    },
+    {
+      "id": 48,
+      "flavorName": "Banana's Foster"
+    },
+    {
+      "id": 49,
+      "flavorName": "California Dreamin'"
+    },
+    {
+      "id": 50,
+      "flavorName": "Clear Strawberry"
+    },
+    {
+      "id": 51,
+      "flavorName": "Apple Pie"
+    },
+    {
+      "id": 52,
+      "flavorName": "Creme De Menthe"
+    },
+    {
+      "id": 53,
+      "flavorName": "Banana Creme"
+    },
+    {
+      "id": 54,
+      "flavorName": "Chocolate Cream"
+    },
+    {
+      "id": 55,
+      "flavorName": "Clear Pina Colada"
+    },
+    {
+      "id": 56,
+      "flavorName": "Clear Silver Fox"
+    },
+    {
+      "id": 57,
+      "flavorName": "Amaretto Cream"
+    },
+    {
+      "id": 58,
+      "flavorName": "Dreamsicle"
+    },
+    {
+      "id": 59,
+      "flavorName": "Double Bubble"
+    },
+    {
+      "id": 60,
+      "flavorName": "Electric Slide"
+    },
+    {
+      "id": 61,
+      "flavorName": "Fire"
+    },
+    {
+      "id": 62,
+      "flavorName": "Fuzzy Navel"
+    },
+    {
+      "id": 63,
+      "flavorName": "Fresh Pineapple"
+    },
+    {
+      "id": 64,
+      "flavorName": "Fresh Coconut"
+    },
+    {
+      "id": 65,
+      "flavorName": "Dill Pickle"
+    },
+    {
+      "id": 66,
+      "flavorName": "Egg Custard"
+    },
+    {
+      "id": 67,
+      "flavorName": "Fireball"
+    },
+    {
+      "id": 68,
+      "flavorName": "French Vanilla"
+    },
+    {
+      "id": 69,
+      "flavorName": "Fruitasia"
+    },
+    {
+      "id": 70,
+      "flavorName": "Fruity Pebbles"
+    },
+    {
+      "id": 71,
+      "flavorName": "Fuzzy Monkey"
+    },
+    {
+      "id": 72,
+      "flavorName": "Frogger"
+    },
+    {
+      "id": 73,
+      "flavorName": "Firecracker"
+    },
+    {
+      "id": 74,
+      "flavorName": "Double Butter"
+    },
+    {
+      "id": 75,
+      "flavorName": "Dinosaur"
+    },
+    {
+      "id": 76,
+      "flavorName": "Guava"
+    },
+    {
+      "id": 77,
+      "flavorName": "Grape"
+    },
+    {
+      "id": 78,
+      "flavorName": "Hawaiian"
+    },
+    {
+      "id": 79,
+      "flavorName": "Ghirardelli Caramel Apple"
+    },
+    {
+      "id": 80,
+      "flavorName": "Georgia Peach"
+    },
+    {
+      "id": 81,
+      "flavorName": "Hawaiian Rainbow"
+    },
+    {
+      "id": 82,
+      "flavorName": "Grenade"
+    },
+    {
+      "id": 83,
+      "flavorName": "Green Apple"
+    },
+    {
+      "id": 84,
+      "flavorName": "Honeydew"
+    },
+    {
+      "id": 85,
+      "flavorName": "Hurricane"
+    },
+    {
+      "id": 86,
+      "flavorName": "Ice Cream"
+    },
+    {
+      "id": 87,
+      "flavorName": "Iced Tea"
+    },
+    {
+      "id": 88,
+      "flavorName": "Grammie's Coffee"
+    },
+    {
+      "id": 89,
+      "flavorName": "Go Big Orange"
+    },
+    {
+      "id": 90,
+      "flavorName": "John Deere"
+    },
+    {
+      "id": 91,
+      "flavorName": "Kiwi"
+    },
+    {
+      "id": 92,
+      "flavorName": "Lemon"
+    },
+    {
+      "id": 93,
+      "flavorName": "Lime"
+    },
+    {
+      "id": 94,
+      "flavorName": "Legit"
+    },
+    {
+      "id": 95,
+      "flavorName": "Lemon Lime"
+    },
+    {
+      "id": 96,
+      "flavorName": "Lemonade"
+    },
+    {
+      "id": 97,
+      "flavorName": "Li Hing Mui"
+    },
+    {
+      "id": 98,
+      "flavorName": "J'Makin Me Happy"
+    },
+    {
+      "id": 99,
+      "flavorName": "Key Lime Colada"
+    },
+    {
+      "id": 100,
+      "flavorName": "Key Lime Pie"
+    },
+    {
+      "id": 101,
+      "flavorName": "Key Lime"
+    },
+    {
+      "id": 102,
+      "flavorName": "Lychee"
+    },
+    {
+      "id": 103,
+      "flavorName": "Mango"
+    },
+    {
+      "id": 104,
+      "flavorName": "Mai Tai"
+    },
+    {
+      "id": 105,
+      "flavorName": "Mango Tango"
+    },
+    {
+      "id": 106,
+      "flavorName": "Ninja Turtle"
+    },
+    {
+      "id": 107,
+      "flavorName": "Nectar"
+    },
+    {
+      "id": 108,
+      "flavorName": "Napoleon Dynamite"
+    },
+    {
+      "id": 109,
+      "flavorName": "Orange"
+    },
+    {
+      "id": 110,
+      "flavorName": "Orchid"
+    },
+    {
+      "id": 111,
+      "flavorName": "Margarita"
+    },
+    {
+      "id": 112,
+      "flavorName": "Maui Wowee"
+    },
+    {
+      "id": 113,
+      "flavorName": "Mojito"
+    },
+    {
+      "id": 114,
+      "flavorName": "Orange Pineapple"
+    },
+    {
+      "id": 115,
+      "flavorName": "Natural Margarita"
+    },
+    {
+      "id": 116,
+      "flavorName": "Nerds"
+    },
+    {
+      "id": 117,
+      "flavorName": "Marshmallow"
+    },
+    {
+      "id": 118,
+      "flavorName": "Mardi Gras King Cake"
+    },
+    {
+      "id": 119,
+      "flavorName": "Nectar Cream"
+    },
+    {
+      "id": 120,
+      "flavorName": "Merica"
+    },
+    {
+      "id": 121,
+      "flavorName": "Pineapple"
+    },
+    {
+      "id": 122,
+      "flavorName": "Peach"
+    },
+    {
+      "id": 123,
+      "flavorName": "Pear"
+    },
+    {
+      "id": 124,
+      "flavorName": "Peppermint"
+    },
+    {
+      "id": 125,
+      "flavorName": "Pina Colada"
+    },
+    {
+      "id": 126,
+      "flavorName": "Pink Bubblegum"
+    },
+    {
+      "id": 127,
+      "flavorName": "Pink Lemonade"
+    },
+    {
+      "id": 128,
+      "flavorName": "Purple Bubble"
+    },
+    {
+      "id": 129,
+      "flavorName": "Passionfruit"
+    },
+    {
+      "id": 130,
+      "flavorName": "Papaya"
+    },
+    {
+      "id": 131,
+      "flavorName": "Purple Haze"
+    },
+    {
+      "id": 132,
+      "flavorName": "Raspberry"
+    },
+    {
+      "id": 133,
+      "flavorName": "Rainbow"
+    },
+    {
+      "id": 134,
+      "flavorName": "Root Beer"
+    },
+    {
+      "id": 135,
+      "flavorName": "POG (passionfruit, orange, guava)"
+    },
+    {
+      "id": 136,
+      "flavorName": "Pink Champagne"
+    },
+    {
+      "id": 137,
+      "flavorName": "Plum"
+    },
+    {
+      "id": 138,
+      "flavorName": "Polar Punch"
+    },
+    {
+      "id": 139,
+      "flavorName": "Red Raspbery"
+    },
+    {
+      "id": 140,
+      "flavorName": "Pomegranate"
+    },
+    {
+      "id": 141,
+      "flavorName": "Praline"
+    },
+    {
+      "id": 142,
+      "flavorName": "Red Apple"
+    },
+    {
+      "id": 143,
+      "flavorName": "Red Velvet Cake"
+    },
+    {
+      "id": 144,
+      "flavorName": "Rootbeer Sno Float"
+    },
+    {
+      "id": 145,
+      "flavorName": "Pop's Candy Dish"
+    },
+    {
+      "id": 146,
+      "flavorName": "Peanut Butter"
+    },
+    {
+      "id": 147,
+      "flavorName": "Popeye"
+    },
+    {
+      "id": 148,
+      "flavorName": "Pink Cotton Candy"
+    },
+    {
+      "id": 149,
+      "flavorName": "Pasion"
+    },
+    {
+      "id": 150,
+      "flavorName": "Tiger's Blood"
+    },
+    {
+      "id": 151,
+      "flavorName": "Spearmint"
+    },
+    {
+      "id": 152,
+      "flavorName": "Spiderman"
+    },
+    {
+      "id": 153,
+      "flavorName": "Strawberry"
+    },
+    {
+      "id": 154,
+      "flavorName": "Tutti Fruti"
+    },
+    {
+      "id": 155,
+      "flavorName": "Strawberry Banana"
+    },
+    {
+      "id": 156,
+      "flavorName": "Strawberry Cheesecake"
+    },
+    {
+      "id": 157,
+      "flavorName": "Strawberry Kiwi"
+    },
+    {
+      "id": 158,
+      "flavorName": "Shock Tart"
+    },
+    {
+      "id": 159,
+      "flavorName": "Shrek"
+    },
+    {
+      "id": 160,
+      "flavorName": "Snow Cream"
+    },
+    {
+      "id": 161,
+      "flavorName": "Tangerine"
+    },
+    {
+      "id": 162,
+      "flavorName": "Toxic Waste"
+    },
+    {
+      "id": 163,
+      "flavorName": "Tropical Punch"
+    },
+    {
+      "id": 164,
+      "flavorName": "Strawnilla Shortcake"
+    },
+    {
+      "id": 165,
+      "flavorName": "Strawberry Lemonade"
+    },
+    {
+      "id": 166,
+      "flavorName": "Sour Gummi Worm"
+    },
+    {
+      "id": 167,
+      "flavorName": "Sour Apple"
+    },
+    {
+      "id": 168,
+      "flavorName": "Sour Spray"
+    },
+    {
+      "id": 169,
+      "flavorName": "Sweet Cherry"
+    },
+    {
+      "id": 170,
+      "flavorName": "Strawberry Shortcake"
+    },
+    {
+      "id": 171,
+      "flavorName": "Strawberry Daiquiri"
+    },
+    {
+      "id": 172,
+      "flavorName": "Sea Breeze"
+    },
+    {
+      "id": 173,
+      "flavorName": "Skylite"
+    },
+    {
+      "id": 174,
+      "flavorName": "Sour Cherry"
+    },
+    {
+      "id": 175,
+      "flavorName": "Sour Grape"
+    },
+    {
+      "id": 176,
+      "flavorName": "Sour Tsunami"
+    },
+    {
+      "id": 177,
+      "flavorName": "Sweet Tart"
+    },
+    {
+      "id": 178,
+      "flavorName": "Tamarind"
+    },
+    {
+      "id": 179,
+      "flavorName": "Toothpaste"
+    },
+    {
+      "id": 180,
+      "flavorName": "Super Hero"
+    },
+    {
+      "id": 181,
+      "flavorName": "Unicorn"
+    },
+    {
+      "id": 182,
+      "flavorName": "Shark Attack"
+    },
+    {
+      "id": 183,
+      "flavorName": "Sour Tart"
+    },
+    {
+      "id": 184,
+      "flavorName": "Sunset Beach"
+    },
+    {
+      "id": 185,
+      "flavorName": "Snoberry"
+    },
+    {
+      "id": 186,
+      "flavorName": "Strawberries and Cream"
+    },
+    {
+      "id": 187,
+      "flavorName": "Sunset"
+    },
+    {
+      "id": 188,
+      "flavorName": "Tongue Twister"
+    },
+    {
+      "id": 189,
+      "flavorName": "Sugar Free Cake Batter"
+    },
+    {
+      "id": 190,
+      "flavorName": "Sugar Free Cherry"
+    },
+    {
+      "id": 191,
+      "flavorName": "Sugar Free Coconut"
+    },
+    {
+      "id": 192,
+      "flavorName": "Sugar Free Grape"
+    },
+    {
+      "id": 193,
+      "flavorName": "Sugar Free Lemon"
+    },
+    {
+      "id": 194,
+      "flavorName": "Sugar Free Orange"
+    },
+    {
+      "id": 195,
+      "flavorName": "Surf's Up"
+    },
+    {
+      "id": 196,
+      "flavorName": "Smores"
+    },
+    {
+      "id": 197,
+      "flavorName": "Turtle Pecan"
+    },
+    {
+      "id": 198,
+      "flavorName": "Sugar Free Blue Raspberry"
+    },
+    {
+      "id": 199,
+      "flavorName": "Sugar Free Pina Colada"
+    },
+    {
+      "id": 200,
+      "flavorName": "Sugar Free Tiger's Blood"
+    },
+    {
+      "id": 201,
+      "flavorName": "Sugar Free Wedding Cake"
+    },
+    {
+      "id": 202,
+      "flavorName": "The Titan"
+    },
+    {
+      "id": 203,
+      "flavorName": "Strawberry Margarita"
+    },
+    {
+      "id": 204,
+      "flavorName": "Sugar Free Strawberry"
+    },
+    {
+      "id": 205,
+      "flavorName": "Sugar Free Watermelon"
+    },
+    {
+      "id": 206,
+      "flavorName": "Sugar Free Banana"
+    },
+    {
+      "id": 207,
+      "flavorName": "Sugar Free Hurricane"
+    },
+    {
+      "id": 208,
+      "flavorName": "Some Where on a Beach"
+    },
+    {
+      "id": 209,
+      "flavorName": "Snow Angel"
+    },
+    {
+      "id": 210,
+      "flavorName": "Sugar Free Hawaiian Lemon Lime"
+    },
+    {
+      "id": 211,
+      "flavorName": "Sugar Free Bubblegum"
+    },
+    {
+      "id": 212,
+      "flavorName": "Sugar Free Lime"
+    },
+    {
+      "id": 213,
+      "flavorName": "Sugar Free Peach"
+    },
+    {
+      "id": 214,
+      "flavorName": "Watermelon"
+    },
+    {
+      "id": 215,
+      "flavorName": "Wedding Cake"
+    },
+    {
+      "id": 216,
+      "flavorName": "White Wedding"
+    },
+    {
+      "id": 217,
+      "flavorName": "Vanilla Cola"
+    },
+    {
+      "id": 218,
+      "flavorName": "Wally Bobo"
+    },
+    {
+      "id": 219,
+      "flavorName": "Wild Cherry"
+    },
+    {
+      "id": 220,
+      "flavorName": "Wild Strawberry"
+    },
+    {
+      "id": 221,
+      "flavorName": "Wild Thang"
+    },
+    {
+      "id": 222,
+      "flavorName": "Vanilla"
+    },
+    {
+      "id": 223,
+      "flavorName": "White Chocolate"
+    },
+    {
+      "id": 224,
+      "flavorName": "White Chocolate Cream"
+    }
+  ],
+  "locationsFlavors": [
+    {
+      "id": 1,
+      "flavorId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "flavorId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "flavorId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "flavorId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "flavorId": 5,
+      "locationId": 1
+    },
+    {
+      "id": 6,
+      "flavorId": 6,
+      "locationId": 1
+    },
+    {
+      "id": 7,
+      "flavorId": 7,
+      "locationId": 1
+    },
+    {
+      "id": 8,
+      "flavorId": 8,
+      "locationId": 1
+    },
+    {
+      "id": 9,
+      "flavorId": 9,
+      "locationId": 1
+    },
+    {
+      "id": 10,
+      "flavorId": 10,
+      "locationId": 1
+    },
+    {
+      "id": 11,
+      "flavorId": 11,
+      "locationId": 1
+    },
+    {
+      "id": 12,
+      "flavorId": 12,
+      "locationId": 1
+    },
+    {
+      "id": 13,
+      "flavorId": 13,
+      "locationId": 1
+    },
+    {
+      "id": 14,
+      "flavorId": 14,
+      "locationId": 1
+    },
+    {
+      "id": 15,
+      "flavorId": 15,
+      "locationId": 1
+    },
+    {
+      "id": 16,
+      "flavorId": 16,
+      "locationId": 1
+    },
+    {
+      "id": 17,
+      "flavorId": 92,
+      "locationId": 1
+    },
+    {
+      "id": 18,
+      "flavorId": 58,
+      "locationId": 1
+    },
+    {
+      "id": 19,
+      "flavorId": 59,
+      "locationId": 1
+    },
+    {
+      "id": 20,
+      "flavorId": 60,
+      "locationId": 1
+    },
+    {
+      "id": 21,
+      "flavorId": 61,
+      "locationId": 1
+    },
+    {
+      "id": 22,
+      "flavorId": 62,
+      "locationId": 1
+    },
+    {
+      "id": 23,
+      "flavorId": 76,
+      "locationId": 1
+    },
+    {
+      "id": 24,
+      "flavorId": 77,
+      "locationId": 1
+    },
+    {
+      "id": 25,
+      "flavorId": 78,
+      "locationId": 1
+    },
+    {
+      "id": 26,
+      "flavorId": 90,
+      "locationId": 1
+    },
+    {
+      "id": 27,
+      "flavorId": 91,
+      "locationId": 1
+    },
+    {
+      "id": 28,
+      "flavorId": 93,
+      "locationId": 1
+    },
+    {
+      "id": 29,
+      "flavorId": 94,
+      "locationId": 1
+    },
+    {
+      "id": 30,
+      "flavorId": 103,
+      "locationId": 1
+    },
+    {
+      "id": 31,
+      "flavorId": 104,
+      "locationId": 1
+    },
+    {
+      "id": 32,
+      "flavorId": 105,
+      "locationId": 1
+    },
+    {
+      "id": 33,
+      "flavorId": 106,
+      "locationId": 1
+    },
+    {
+      "id": 34,
+      "flavorId": 107,
+      "locationId": 1
+    },
+    {
+      "id": 35,
+      "flavorId": 108,
+      "locationId": 1
+    },
+    {
+      "id": 36,
+      "flavorId": 109,
+      "locationId": 1
+    },
+    {
+      "id": 37,
+      "flavorId": 110,
+      "locationId": 1
+    },
+    {
+      "id": 38,
+      "flavorId": 121,
+      "locationId": 1
+    },
+    {
+      "id": 39,
+      "flavorId": 122,
+      "locationId": 1
+    },
+    {
+      "id": 40,
+      "flavorId": 123,
+      "locationId": 1
+    },
+    {
+      "id": 41,
+      "flavorId": 124,
+      "locationId": 1
+    },
+    {
+      "id": 42,
+      "flavorId": 125,
+      "locationId": 1
+    },
+    {
+      "id": 43,
+      "flavorId": 126,
+      "locationId": 1
+    },
+    {
+      "id": 44,
+      "flavorId": 127,
+      "locationId": 1
+    },
+    {
+      "id": 45,
+      "flavorId": 128,
+      "locationId": 1
+    },
+    {
+      "id": 46,
+      "flavorId": 129,
+      "locationId": 1
+    },
+    {
+      "id": 47,
+      "flavorId": 130,
+      "locationId": 1
+    },
+    {
+      "id": 48,
+      "flavorId": 131,
+      "locationId": 1
+    },
+    {
+      "id": 49,
+      "flavorId": 132,
+      "locationId": 1
+    },
+    {
+      "id": 50,
+      "flavorId": 133,
+      "locationId": 1
+    },
+    {
+      "id": 51,
+      "flavorId": 134,
+      "locationId": 1
+    },
+    {
+      "id": 52,
+      "flavorId": 150,
+      "locationId": 1
+    },
+    {
+      "id": 53,
+      "flavorId": 151,
+      "locationId": 1
+    },
+    {
+      "id": 54,
+      "flavorId": 152,
+      "locationId": 1
+    },
+    {
+      "id": 55,
+      "flavorId": 153,
+      "locationId": 1
+    },
+    {
+      "id": 56,
+      "flavorId": 154,
+      "locationId": 1
+    },
+    {
+      "id": 57,
+      "flavorId": 155,
+      "locationId": 1
+    },
+    {
+      "id": 58,
+      "flavorId": 156,
+      "locationId": 1
+    },
+    {
+      "id": 59,
+      "flavorId": 157,
+      "locationId": 1
+    },
+    {
+      "id": 60,
+      "flavorId": 158,
+      "locationId": 1
+    },
+    {
+      "id": 61,
+      "flavorId": 159,
+      "locationId": 1
+    },
+    {
+      "id": 62,
+      "flavorId": 160,
+      "locationId": 1
+    },
+    {
+      "id": 63,
+      "flavorId": 161,
+      "locationId": 1
+    },
+    {
+      "id": 64,
+      "flavorId": 162,
+      "locationId": 1
+    },
+    {
+      "id": 65,
+      "flavorId": 163,
+      "locationId": 1
+    },
+    {
+      "id": 66,
+      "flavorId": 214,
+      "locationId": 1
+    },
+    {
+      "id": 67,
+      "flavorId": 215,
+      "locationId": 1
+    },
+    {
+      "id": 68,
+      "flavorId": 216,
+      "locationId": 1
+    },
+    {
+      "id": 69,
+      "flavorId": 95,
+      "locationId": 1
+    },
+    {
+      "id": 70,
+      "flavorId": 8,
+      "locationId": 2
+    },
+    {
+      "id": 71,
+      "flavorId": 9,
+      "locationId": 2
+    },
+    {
+      "id": 72,
+      "flavorId": 11,
+      "locationId": 2
+    },
+    {
+      "id": 73,
+      "flavorId": 12,
+      "locationId": 2
+    },
+    {
+      "id": 74,
+      "flavorId": 17,
+      "locationId": 2
+    },
+    {
+      "id": 75,
+      "flavorId": 58,
+      "locationId": 2
+    },
+    {
+      "id": 76,
+      "flavorId": 63,
+      "locationId": 2
+    },
+    {
+      "id": 77,
+      "flavorId": 64,
+      "locationId": 2
+    },
+    {
+      "id": 78,
+      "flavorId": 79,
+      "locationId": 2
+    },
+    {
+      "id": 79,
+      "flavorId": 80,
+      "locationId": 2
+    },
+    {
+      "id": 80,
+      "flavorId": 81,
+      "locationId": 2
+    },
+    {
+      "id": 81,
+      "flavorId": 91,
+      "locationId": 2
+    },
+    {
+      "id": 82,
+      "flavorId": 93,
+      "locationId": 2
+    },
+    {
+      "id": 83,
+      "flavorId": 96,
+      "locationId": 2
+    },
+    {
+      "id": 84,
+      "flavorId": 97,
+      "locationId": 2
+    },
+    {
+      "id": 85,
+      "flavorId": 103,
+      "locationId": 2
+    },
+    {
+      "id": 86,
+      "flavorId": 121,
+      "locationId": 2
+    },
+    {
+      "id": 87,
+      "flavorId": 132,
+      "locationId": 2
+    },
+    {
+      "id": 88,
+      "flavorId": 135,
+      "locationId": 2
+    },
+    {
+      "id": 89,
+      "flavorId": 150,
+      "locationId": 2
+    },
+    {
+      "id": 90,
+      "flavorId": 160,
+      "locationId": 2
+    },
+    {
+      "id": 91,
+      "flavorId": 164,
+      "locationId": 2
+    },
+    {
+      "id": 92,
+      "flavorId": 165,
+      "locationId": 2
+    },
+    {
+      "id": 93,
+      "flavorId": 166,
+      "locationId": 2
+    },
+    {
+      "id": 94,
+      "flavorId": 167,
+      "locationId": 2
+    },
+    {
+      "id": 95,
+      "flavorId": 168,
+      "locationId": 2
+    },
+    {
+      "id": 96,
+      "flavorId": 214,
+      "locationId": 2
+    },
+    {
+      "id": 97,
+      "flavorId": 215,
+      "locationId": 2
+    },
+    {
+      "id": 98,
+      "flavorId": 4,
+      "locationId": 3
+    },
+    {
+      "id": 99,
+      "flavorId": 8,
+      "locationId": 3
+    },
+    {
+      "id": 100,
+      "flavorId": 9,
+      "locationId": 3
+    },
+    {
+      "id": 101,
+      "flavorId": 11,
+      "locationId": 3
+    },
+    {
+      "id": 102,
+      "flavorId": 14,
+      "locationId": 3
+    },
+    {
+      "id": 103,
+      "flavorId": 16,
+      "locationId": 3
+    },
+    {
+      "id": 104,
+      "flavorId": 18,
+      "locationId": 3
+    },
+    {
+      "id": 105,
+      "flavorId": 19,
+      "locationId": 3
+    },
+    {
+      "id": 106,
+      "flavorId": 20,
+      "locationId": 3
+    },
+    {
+      "id": 107,
+      "flavorId": 21,
+      "locationId": 3
+    },
+    {
+      "id": 108,
+      "flavorId": 22,
+      "locationId": 3
+    },
+    {
+      "id": 109,
+      "flavorId": 23,
+      "locationId": 3
+    },
+    {
+      "id": 110,
+      "flavorId": 24,
+      "locationId": 3
+    },
+    {
+      "id": 111,
+      "flavorId": 25,
+      "locationId": 3
+    },
+    {
+      "id": 112,
+      "flavorId": 26,
+      "locationId": 3
+    },
+    {
+      "id": 113,
+      "flavorId": 27,
+      "locationId": 3
+    },
+    {
+      "id": 114,
+      "flavorId": 28,
+      "locationId": 3
+    },
+    {
+      "id": 115,
+      "flavorId": 29,
+      "locationId": 3
+    },
+    {
+      "id": 116,
+      "flavorId": 30,
+      "locationId": 3
+    },
+    {
+      "id": 117,
+      "flavorId": 31,
+      "locationId": 3
+    },
+    {
+      "id": 118,
+      "flavorId": 32,
+      "locationId": 3
+    },
+    {
+      "id": 119,
+      "flavorId": 33,
+      "locationId": 3
+    },
+    {
+      "id": 120,
+      "flavorId": 34,
+      "locationId": 3
+    },
+    {
+      "id": 121,
+      "flavorId": 35,
+      "locationId": 3
+    },
+    {
+      "id": 122,
+      "flavorId": 36,
+      "locationId": 3
+    },
+    {
+      "id": 123,
+      "flavorId": 58,
+      "locationId": 3
+    },
+    {
+      "id": 124,
+      "flavorId": 62,
+      "locationId": 3
+    },
+    {
+      "id": 125,
+      "flavorId": 65,
+      "locationId": 3
+    },
+    {
+      "id": 126,
+      "flavorId": 66,
+      "locationId": 3
+    },
+    {
+      "id": 127,
+      "flavorId": 67,
+      "locationId": 3
+    },
+    {
+      "id": 128,
+      "flavorId": 68,
+      "locationId": 3
+    },
+    {
+      "id": 129,
+      "flavorId": 69,
+      "locationId": 3
+    },
+    {
+      "id": 130,
+      "flavorId": 70,
+      "locationId": 3
+    },
+    {
+      "id": 131,
+      "flavorId": 71,
+      "locationId": 3
+    },
+    {
+      "id": 132,
+      "flavorId": 72,
+      "locationId": 3
+    },
+    {
+      "id": 133,
+      "flavorId": 76,
+      "locationId": 3
+    },
+    {
+      "id": 134,
+      "flavorId": 77,
+      "locationId": 3
+    },
+    {
+      "id": 135,
+      "flavorId": 78,
+      "locationId": 3
+    },
+    {
+      "id": 136,
+      "flavorId": 80,
+      "locationId": 3
+    },
+    {
+      "id": 137,
+      "flavorId": 82,
+      "locationId": 3
+    },
+    {
+      "id": 138,
+      "flavorId": 83,
+      "locationId": 3
+    },
+    {
+      "id": 139,
+      "flavorId": 84,
+      "locationId": 3
+    },
+    {
+      "id": 140,
+      "flavorId": 85,
+      "locationId": 3
+    },
+    {
+      "id": 141,
+      "flavorId": 86,
+      "locationId": 3
+    },
+    {
+      "id": 142,
+      "flavorId": 87,
+      "locationId": 3
+    },
+    {
+      "id": 143,
+      "flavorId": 91,
+      "locationId": 3
+    },
+    {
+      "id": 144,
+      "flavorId": 92,
+      "locationId": 3
+    },
+    {
+      "id": 145,
+      "flavorId": 93,
+      "locationId": 3
+    },
+    {
+      "id": 146,
+      "flavorId": 95,
+      "locationId": 3
+    },
+    {
+      "id": 147,
+      "flavorId": 96,
+      "locationId": 3
+    },
+    {
+      "id": 148,
+      "flavorId": 98,
+      "locationId": 3
+    },
+    {
+      "id": 149,
+      "flavorId": 103,
+      "locationId": 3
+    },
+    {
+      "id": 150,
+      "flavorId": 104,
+      "locationId": 3
+    },
+    {
+      "id": 151,
+      "flavorId": 107,
+      "locationId": 3
+    },
+    {
+      "id": 152,
+      "flavorId": 109,
+      "locationId": 3
+    },
+    {
+      "id": 153,
+      "flavorId": 111,
+      "locationId": 3
+    },
+    {
+      "id": 154,
+      "flavorId": 112,
+      "locationId": 3
+    },
+    {
+      "id": 155,
+      "flavorId": 113,
+      "locationId": 3
+    },
+    {
+      "id": 156,
+      "flavorId": 114,
+      "locationId": 3
+    },
+    {
+      "id": 157,
+      "flavorId": 121,
+      "locationId": 3
+    },
+    {
+      "id": 158,
+      "flavorId": 122,
+      "locationId": 3
+    },
+    {
+      "id": 159,
+      "flavorId": 125,
+      "locationId": 3
+    },
+    {
+      "id": 160,
+      "flavorId": 126,
+      "locationId": 3
+    },
+    {
+      "id": 161,
+      "flavorId": 127,
+      "locationId": 3
+    },
+    {
+      "id": 162,
+      "flavorId": 129,
+      "locationId": 3
+    },
+    {
+      "id": 163,
+      "flavorId": 130,
+      "locationId": 3
+    },
+    {
+      "id": 164,
+      "flavorId": 133,
+      "locationId": 3
+    },
+    {
+      "id": 165,
+      "flavorId": 134,
+      "locationId": 3
+    },
+    {
+      "id": 166,
+      "flavorId": 135,
+      "locationId": 3
+    },
+    {
+      "id": 167,
+      "flavorId": 136,
+      "locationId": 3
+    },
+    {
+      "id": 168,
+      "flavorId": 137,
+      "locationId": 3
+    },
+    {
+      "id": 169,
+      "flavorId": 138,
+      "locationId": 3
+    },
+    {
+      "id": 170,
+      "flavorId": 139,
+      "locationId": 3
+    },
+    {
+      "id": 171,
+      "flavorId": 140,
+      "locationId": 3
+    },
+    {
+      "id": 172,
+      "flavorId": 141,
+      "locationId": 3
+    },
+    {
+      "id": 173,
+      "flavorId": 142,
+      "locationId": 3
+    },
+    {
+      "id": 174,
+      "flavorId": 143,
+      "locationId": 3
+    },
+    {
+      "id": 175,
+      "flavorId": 150,
+      "locationId": 3
+    },
+    {
+      "id": 176,
+      "flavorId": 151,
+      "locationId": 3
+    },
+    {
+      "id": 177,
+      "flavorId": 153,
+      "locationId": 3
+    },
+    {
+      "id": 178,
+      "flavorId": 154,
+      "locationId": 3
+    },
+    {
+      "id": 179,
+      "flavorId": 156,
+      "locationId": 3
+    },
+    {
+      "id": 180,
+      "flavorId": 163,
+      "locationId": 3
+    },
+    {
+      "id": 181,
+      "flavorId": 167,
+      "locationId": 3
+    },
+    {
+      "id": 182,
+      "flavorId": 169,
+      "locationId": 3
+    },
+    {
+      "id": 183,
+      "flavorId": 170,
+      "locationId": 3
+    },
+    {
+      "id": 184,
+      "flavorId": 171,
+      "locationId": 3
+    },
+    {
+      "id": 185,
+      "flavorId": 172,
+      "locationId": 3
+    },
+    {
+      "id": 186,
+      "flavorId": 173,
+      "locationId": 3
+    },
+    {
+      "id": 187,
+      "flavorId": 174,
+      "locationId": 3
+    },
+    {
+      "id": 188,
+      "flavorId": 175,
+      "locationId": 3
+    },
+    {
+      "id": 189,
+      "flavorId": 176,
+      "locationId": 3
+    },
+    {
+      "id": 190,
+      "flavorId": 177,
+      "locationId": 3
+    },
+    {
+      "id": 191,
+      "flavorId": 178,
+      "locationId": 3
+    },
+    {
+      "id": 192,
+      "flavorId": 179,
+      "locationId": 3
+    },
+    {
+      "id": 193,
+      "flavorId": 180,
+      "locationId": 3
+    },
+    {
+      "id": 194,
+      "flavorId": 181,
+      "locationId": 3
+    },
+    {
+      "id": 195,
+      "flavorId": 182,
+      "locationId": 3
+    },
+    {
+      "id": 196,
+      "flavorId": 214,
+      "locationId": 3
+    },
+    {
+      "id": 197,
+      "flavorId": 215,
+      "locationId": 3
+    },
+    {
+      "id": 198,
+      "flavorId": 217,
+      "locationId": 3
+    },
+    {
+      "id": 199,
+      "flavorId": 218,
+      "locationId": 3
+    },
+    {
+      "id": 200,
+      "flavorId": 219,
+      "locationId": 3
+    },
+    {
+      "id": 201,
+      "flavorId": 220,
+      "locationId": 3
+    },
+    {
+      "id": 202,
+      "flavorId": 221,
+      "locationId": 3
+    },
+    {
+      "id": 203,
+      "flavorId": 8,
+      "locationId": 4
+    },
+    {
+      "id": 204,
+      "flavorId": 9,
+      "locationId": 4
+    },
+    {
+      "id": 205,
+      "flavorId": 12,
+      "locationId": 4
+    },
+    {
+      "id": 206,
+      "flavorId": 14,
+      "locationId": 4
+    },
+    {
+      "id": 207,
+      "flavorId": 16,
+      "locationId": 4
+    },
+    {
+      "id": 208,
+      "flavorId": 19,
+      "locationId": 4
+    },
+    {
+      "id": 209,
+      "flavorId": 22,
+      "locationId": 4
+    },
+    {
+      "id": 210,
+      "flavorId": 37,
+      "locationId": 4
+    },
+    {
+      "id": 211,
+      "flavorId": 77,
+      "locationId": 4
+    },
+    {
+      "id": 212,
+      "flavorId": 83,
+      "locationId": 4
+    },
+    {
+      "id": 213,
+      "flavorId": 91,
+      "locationId": 4
+    },
+    {
+      "id": 214,
+      "flavorId": 96,
+      "locationId": 4
+    },
+    {
+      "id": 215,
+      "flavorId": 99,
+      "locationId": 4
+    },
+    {
+      "id": 216,
+      "flavorId": 103,
+      "locationId": 4
+    },
+    {
+      "id": 217,
+      "flavorId": 109,
+      "locationId": 4
+    },
+    {
+      "id": 218,
+      "flavorId": 111,
+      "locationId": 4
+    },
+    {
+      "id": 219,
+      "flavorId": 121,
+      "locationId": 4
+    },
+    {
+      "id": 220,
+      "flavorId": 122,
+      "locationId": 4
+    },
+    {
+      "id": 221,
+      "flavorId": 125,
+      "locationId": 4
+    },
+    {
+      "id": 222,
+      "flavorId": 133,
+      "locationId": 4
+    },
+    {
+      "id": 223,
+      "flavorId": 150,
+      "locationId": 4
+    },
+    {
+      "id": 224,
+      "flavorId": 153,
+      "locationId": 4
+    },
+    {
+      "id": 225,
+      "flavorId": 156,
+      "locationId": 4
+    },
+    {
+      "id": 226,
+      "flavorId": 214,
+      "locationId": 4
+    },
+    {
+      "id": 227,
+      "flavorId": 14,
+      "locationId": 5
+    },
+    {
+      "id": 228,
+      "flavorId": 16,
+      "locationId": 5
+    },
+    {
+      "id": 229,
+      "flavorId": 34,
+      "locationId": 5
+    },
+    {
+      "id": 230,
+      "flavorId": 37,
+      "locationId": 5
+    },
+    {
+      "id": 231,
+      "flavorId": 38,
+      "locationId": 5
+    },
+    {
+      "id": 232,
+      "flavorId": 76,
+      "locationId": 5
+    },
+    {
+      "id": 233,
+      "flavorId": 81,
+      "locationId": 5
+    },
+    {
+      "id": 234,
+      "flavorId": 100,
+      "locationId": 5
+    },
+    {
+      "id": 235,
+      "flavorId": 115,
+      "locationId": 5
+    },
+    {
+      "id": 236,
+      "flavorId": 116,
+      "locationId": 5
+    },
+    {
+      "id": 237,
+      "flavorId": 144,
+      "locationId": 5
+    },
+    {
+      "id": 238,
+      "flavorId": 170,
+      "locationId": 5
+    },
+    {
+      "id": 239,
+      "flavorId": 183,
+      "locationId": 5
+    },
+    {
+      "id": 240,
+      "flavorId": 184,
+      "locationId": 5
+    },
+    {
+      "id": 241,
+      "flavorId": 185,
+      "locationId": 5
+    },
+    {
+      "id": 242,
+      "flavorId": 186,
+      "locationId": 5
+    },
+    {
+      "id": 243,
+      "flavorId": 5,
+      "locationId": 6
+    },
+    {
+      "id": 244,
+      "flavorId": 8,
+      "locationId": 6
+    },
+    {
+      "id": 245,
+      "flavorId": 9,
+      "locationId": 6
+    },
+    {
+      "id": 246,
+      "flavorId": 11,
+      "locationId": 6
+    },
+    {
+      "id": 247,
+      "flavorId": 12,
+      "locationId": 6
+    },
+    {
+      "id": 248,
+      "flavorId": 13,
+      "locationId": 6
+    },
+    {
+      "id": 249,
+      "flavorId": 14,
+      "locationId": 6
+    },
+    {
+      "id": 250,
+      "flavorId": 22,
+      "locationId": 6
+    },
+    {
+      "id": 251,
+      "flavorId": 23,
+      "locationId": 6
+    },
+    {
+      "id": 252,
+      "flavorId": 32,
+      "locationId": 6
+    },
+    {
+      "id": 253,
+      "flavorId": 34,
+      "locationId": 6
+    },
+    {
+      "id": 254,
+      "flavorId": 39,
+      "locationId": 6
+    },
+    {
+      "id": 255,
+      "flavorId": 40,
+      "locationId": 6
+    },
+    {
+      "id": 256,
+      "flavorId": 41,
+      "locationId": 6
+    },
+    {
+      "id": 257,
+      "flavorId": 42,
+      "locationId": 6
+    },
+    {
+      "id": 258,
+      "flavorId": 43,
+      "locationId": 6
+    },
+    {
+      "id": 259,
+      "flavorId": 44,
+      "locationId": 6
+    },
+    {
+      "id": 260,
+      "flavorId": 45,
+      "locationId": 6
+    },
+    {
+      "id": 261,
+      "flavorId": 46,
+      "locationId": 6
+    },
+    {
+      "id": 262,
+      "flavorId": 47,
+      "locationId": 6
+    },
+    {
+      "id": 263,
+      "flavorId": 58,
+      "locationId": 6
+    },
+    {
+      "id": 264,
+      "flavorId": 66,
+      "locationId": 6
+    },
+    {
+      "id": 265,
+      "flavorId": 73,
+      "locationId": 6
+    },
+    {
+      "id": 266,
+      "flavorId": 77,
+      "locationId": 6
+    },
+    {
+      "id": 267,
+      "flavorId": 83,
+      "locationId": 6
+    },
+    {
+      "id": 268,
+      "flavorId": 88,
+      "locationId": 6
+    },
+    {
+      "id": 269,
+      "flavorId": 92,
+      "locationId": 6
+    },
+    {
+      "id": 270,
+      "flavorId": 93,
+      "locationId": 6
+    },
+    {
+      "id": 271,
+      "flavorId": 100,
+      "locationId": 6
+    },
+    {
+      "id": 272,
+      "flavorId": 103,
+      "locationId": 6
+    },
+    {
+      "id": 273,
+      "flavorId": 109,
+      "locationId": 6
+    },
+    {
+      "id": 274,
+      "flavorId": 121,
+      "locationId": 6
+    },
+    {
+      "id": 275,
+      "flavorId": 122,
+      "locationId": 6
+    },
+    {
+      "id": 276,
+      "flavorId": 125,
+      "locationId": 6
+    },
+    {
+      "id": 277,
+      "flavorId": 126,
+      "locationId": 6
+    },
+    {
+      "id": 278,
+      "flavorId": 133,
+      "locationId": 6
+    },
+    {
+      "id": 279,
+      "flavorId": 134,
+      "locationId": 6
+    },
+    {
+      "id": 280,
+      "flavorId": 145,
+      "locationId": 6
+    },
+    {
+      "id": 281,
+      "flavorId": 150,
+      "locationId": 6
+    },
+    {
+      "id": 282,
+      "flavorId": 153,
+      "locationId": 6
+    },
+    {
+      "id": 283,
+      "flavorId": 154,
+      "locationId": 6
+    },
+    {
+      "id": 284,
+      "flavorId": 165,
+      "locationId": 6
+    },
+    {
+      "id": 285,
+      "flavorId": 174,
+      "locationId": 6
+    },
+    {
+      "id": 286,
+      "flavorId": 175,
+      "locationId": 6
+    },
+    {
+      "id": 287,
+      "flavorId": 181,
+      "locationId": 6
+    },
+    {
+      "id": 288,
+      "flavorId": 187,
+      "locationId": 6
+    },
+    {
+      "id": 289,
+      "flavorId": 188,
+      "locationId": 6
+    },
+    {
+      "id": 290,
+      "flavorId": 189,
+      "locationId": 6
+    },
+    {
+      "id": 291,
+      "flavorId": 190,
+      "locationId": 6
+    },
+    {
+      "id": 292,
+      "flavorId": 191,
+      "locationId": 6
+    },
+    {
+      "id": 293,
+      "flavorId": 192,
+      "locationId": 6
+    },
+    {
+      "id": 294,
+      "flavorId": 193,
+      "locationId": 6
+    },
+    {
+      "id": 295,
+      "flavorId": 194,
+      "locationId": 6
+    },
+    {
+      "id": 296,
+      "flavorId": 214,
+      "locationId": 6
+    },
+    {
+      "id": 297,
+      "flavorId": 215,
+      "locationId": 6
+    },
+    {
+      "id": 298,
+      "flavorId": 222,
+      "locationId": 6
+    },
+    {
+      "id": 299,
+      "flavorId": 8,
+      "locationId": 7
+    },
+    {
+      "id": 300,
+      "flavorId": 9,
+      "locationId": 7
+    },
+    {
+      "id": 301,
+      "flavorId": 12,
+      "locationId": 7
+    },
+    {
+      "id": 302,
+      "flavorId": 14,
+      "locationId": 7
+    },
+    {
+      "id": 303,
+      "flavorId": 16,
+      "locationId": 7
+    },
+    {
+      "id": 304,
+      "flavorId": 18,
+      "locationId": 7
+    },
+    {
+      "id": 305,
+      "flavorId": 19,
+      "locationId": 7
+    },
+    {
+      "id": 306,
+      "flavorId": 20,
+      "locationId": 7
+    },
+    {
+      "id": 307,
+      "flavorId": 21,
+      "locationId": 7
+    },
+    {
+      "id": 308,
+      "flavorId": 31,
+      "locationId": 7
+    },
+    {
+      "id": 309,
+      "flavorId": 32,
+      "locationId": 7
+    },
+    {
+      "id": 310,
+      "flavorId": 36,
+      "locationId": 7
+    },
+    {
+      "id": 311,
+      "flavorId": 48,
+      "locationId": 7
+    },
+    {
+      "id": 312,
+      "flavorId": 49,
+      "locationId": 7
+    },
+    {
+      "id": 313,
+      "flavorId": 50,
+      "locationId": 7
+    },
+    {
+      "id": 314,
+      "flavorId": 58,
+      "locationId": 7
+    },
+    {
+      "id": 315,
+      "flavorId": 77,
+      "locationId": 7
+    },
+    {
+      "id": 316,
+      "flavorId": 78,
+      "locationId": 7
+    },
+    {
+      "id": 317,
+      "flavorId": 86,
+      "locationId": 7
+    },
+    {
+      "id": 318,
+      "flavorId": 92,
+      "locationId": 7
+    },
+    {
+      "id": 319,
+      "flavorId": 100,
+      "locationId": 7
+    },
+    {
+      "id": 320,
+      "flavorId": 101,
+      "locationId": 7
+    },
+    {
+      "id": 321,
+      "flavorId": 103,
+      "locationId": 7
+    },
+    {
+      "id": 322,
+      "flavorId": 109,
+      "locationId": 7
+    },
+    {
+      "id": 323,
+      "flavorId": 117,
+      "locationId": 7
+    },
+    {
+      "id": 324,
+      "flavorId": 122,
+      "locationId": 7
+    },
+    {
+      "id": 325,
+      "flavorId": 121,
+      "locationId": 7
+    },
+    {
+      "id": 326,
+      "flavorId": 125,
+      "locationId": 7
+    },
+    {
+      "id": 327,
+      "flavorId": 127,
+      "locationId": 7
+    },
+    {
+      "id": 328,
+      "flavorId": 133,
+      "locationId": 7
+    },
+    {
+      "id": 329,
+      "flavorId": 138,
+      "locationId": 7
+    },
+    {
+      "id": 330,
+      "flavorId": 150,
+      "locationId": 7
+    },
+    {
+      "id": 331,
+      "flavorId": 153,
+      "locationId": 7
+    },
+    {
+      "id": 332,
+      "flavorId": 154,
+      "locationId": 7
+    },
+    {
+      "id": 333,
+      "flavorId": 167,
+      "locationId": 7
+    },
+    {
+      "id": 334,
+      "flavorId": 170,
+      "locationId": 7
+    },
+    {
+      "id": 335,
+      "flavorId": 173,
+      "locationId": 7
+    },
+    {
+      "id": 336,
+      "flavorId": 174,
+      "locationId": 7
+    },
+    {
+      "id": 337,
+      "flavorId": 190,
+      "locationId": 7
+    },
+    {
+      "id": 338,
+      "flavorId": 195,
+      "locationId": 7
+    },
+    {
+      "id": 339,
+      "flavorId": 196,
+      "locationId": 7
+    },
+    {
+      "id": 340,
+      "flavorId": 197,
+      "locationId": 7
+    },
+    {
+      "id": 341,
+      "flavorId": 198,
+      "locationId": 7
+    },
+    {
+      "id": 342,
+      "flavorId": 199,
+      "locationId": 7
+    },
+    {
+      "id": 343,
+      "flavorId": 200,
+      "locationId": 7
+    },
+    {
+      "id": 344,
+      "flavorId": 201,
+      "locationId": 7
+    },
+    {
+      "id": 345,
+      "flavorId": 214,
+      "locationId": 7
+    },
+    {
+      "id": 346,
+      "flavorId": 215,
+      "locationId": 7
+    },
+    {
+      "id": 347,
+      "flavorId": 222,
+      "locationId": 7
+    },
+    {
+      "id": 348,
+      "flavorId": 4,
+      "locationId": 8
+    },
+    {
+      "id": 349,
+      "flavorId": 6,
+      "locationId": 8
+    },
+    {
+      "id": 350,
+      "flavorId": 7,
+      "locationId": 8
+    },
+    {
+      "id": 351,
+      "flavorId": 8,
+      "locationId": 8
+    },
+    {
+      "id": 352,
+      "flavorId": 9,
+      "locationId": 8
+    },
+    {
+      "id": 353,
+      "flavorId": 11,
+      "locationId": 8
+    },
+    {
+      "id": 354,
+      "flavorId": 12,
+      "locationId": 8
+    },
+    {
+      "id": 355,
+      "flavorId": 14,
+      "locationId": 8
+    },
+    {
+      "id": 356,
+      "flavorId": 17,
+      "locationId": 8
+    },
+    {
+      "id": 357,
+      "flavorId": 20,
+      "locationId": 8
+    },
+    {
+      "id": 358,
+      "flavorId": 22,
+      "locationId": 8
+    },
+    {
+      "id": 359,
+      "flavorId": 23,
+      "locationId": 8
+    },
+    {
+      "id": 360,
+      "flavorId": 27,
+      "locationId": 8
+    },
+    {
+      "id": 361,
+      "flavorId": 38,
+      "locationId": 8
+    },
+    {
+      "id": 362,
+      "flavorId": 42,
+      "locationId": 8
+    },
+    {
+      "id": 363,
+      "flavorId": 51,
+      "locationId": 8
+    },
+    {
+      "id": 364,
+      "flavorId": 52,
+      "locationId": 8
+    },
+    {
+      "id": 365,
+      "flavorId": 53,
+      "locationId": 8
+    },
+    {
+      "id": 366,
+      "flavorId": 58,
+      "locationId": 8
+    },
+    {
+      "id": 367,
+      "flavorId": 74,
+      "locationId": 8
+    },
+    {
+      "id": 368,
+      "flavorId": 75,
+      "locationId": 8
+    },
+    {
+      "id": 369,
+      "flavorId": 77,
+      "locationId": 8
+    },
+    {
+      "id": 370,
+      "flavorId": 78,
+      "locationId": 8
+    },
+    {
+      "id": 371,
+      "flavorId": 80,
+      "locationId": 8
+    },
+    {
+      "id": 372,
+      "flavorId": 85,
+      "locationId": 8
+    },
+    {
+      "id": 373,
+      "flavorId": 86,
+      "locationId": 8
+    },
+    {
+      "id": 374,
+      "flavorId": 96,
+      "locationId": 8
+    },
+    {
+      "id": 375,
+      "flavorId": 102,
+      "locationId": 8
+    },
+    {
+      "id": 376,
+      "flavorId": 103,
+      "locationId": 8
+    },
+    {
+      "id": 377,
+      "flavorId": 107,
+      "locationId": 8
+    },
+    {
+      "id": 378,
+      "flavorId": 109,
+      "locationId": 8
+    },
+    {
+      "id": 379,
+      "flavorId": 118,
+      "locationId": 8
+    },
+    {
+      "id": 380,
+      "flavorId": 119,
+      "locationId": 8
+    },
+    {
+      "id": 381,
+      "flavorId": 125,
+      "locationId": 8
+    },
+    {
+      "id": 382,
+      "flavorId": 146,
+      "locationId": 8
+    },
+    {
+      "id": 383,
+      "flavorId": 147,
+      "locationId": 8
+    },
+    {
+      "id": 384,
+      "flavorId": 148,
+      "locationId": 8
+    },
+    {
+      "id": 385,
+      "flavorId": 150,
+      "locationId": 8
+    },
+    {
+      "id": 386,
+      "flavorId": 153,
+      "locationId": 8
+    },
+    {
+      "id": 387,
+      "flavorId": 167,
+      "locationId": 8
+    },
+    {
+      "id": 388,
+      "flavorId": 190,
+      "locationId": 8
+    },
+    {
+      "id": 389,
+      "flavorId": 191,
+      "locationId": 8
+    },
+    {
+      "id": 390,
+      "flavorId": 192,
+      "locationId": 8
+    },
+    {
+      "id": 391,
+      "flavorId": 194,
+      "locationId": 8
+    },
+    {
+      "id": 392,
+      "flavorId": 200,
+      "locationId": 8
+    },
+    {
+      "id": 393,
+      "flavorId": 201,
+      "locationId": 8
+    },
+    {
+      "id": 394,
+      "flavorId": 202,
+      "locationId": 8
+    },
+    {
+      "id": 395,
+      "flavorId": 203,
+      "locationId": 8
+    },
+    {
+      "id": 396,
+      "flavorId": 204,
+      "locationId": 8
+    },
+    {
+      "id": 397,
+      "flavorId": 205,
+      "locationId": 8
+    },
+    {
+      "id": 398,
+      "flavorId": 206,
+      "locationId": 8
+    },
+    {
+      "id": 399,
+      "flavorId": 207,
+      "locationId": 8
+    },
+    {
+      "id": 400,
+      "flavorId": 214,
+      "locationId": 8
+    },
+    {
+      "id": 401,
+      "flavorId": 215,
+      "locationId": 8
+    },
+    {
+      "id": 402,
+      "flavorId": 222,
+      "locationId": 8
+    },
+    {
+      "id": 403,
+      "flavorId": 223,
+      "locationId": 8
+    },
+    {
+      "id": 404,
+      "flavorId": 224,
+      "locationId": 8
+    },
+    {
+      "id": 405,
+      "flavorId": 6,
+      "locationId": 9
+    },
+    {
+      "id": 406,
+      "flavorId": 8,
+      "locationId": 9
+    },
+    {
+      "id": 407,
+      "flavorId": 9,
+      "locationId": 9
+    },
+    {
+      "id": 408,
+      "flavorId": 16,
+      "locationId": 9
+    },
+    {
+      "id": 409,
+      "flavorId": 18,
+      "locationId": 9
+    },
+    {
+      "id": 410,
+      "flavorId": 19,
+      "locationId": 9
+    },
+    {
+      "id": 411,
+      "flavorId": 20,
+      "locationId": 9
+    },
+    {
+      "id": 412,
+      "flavorId": 37,
+      "locationId": 9
+    },
+    {
+      "id": 413,
+      "flavorId": 45,
+      "locationId": 9
+    },
+    {
+      "id": 414,
+      "flavorId": 50,
+      "locationId": 9
+    },
+    {
+      "id": 415,
+      "flavorId": 54,
+      "locationId": 9
+    },
+    {
+      "id": 416,
+      "flavorId": 55,
+      "locationId": 9
+    },
+    {
+      "id": 417,
+      "flavorId": 56,
+      "locationId": 9
+    },
+    {
+      "id": 418,
+      "flavorId": 58,
+      "locationId": 9
+    },
+    {
+      "id": 419,
+      "flavorId": 77,
+      "locationId": 9
+    },
+    {
+      "id": 420,
+      "flavorId": 89,
+      "locationId": 9
+    },
+    {
+      "id": 421,
+      "flavorId": 100,
+      "locationId": 9
+    },
+    {
+      "id": 422,
+      "flavorId": 101,
+      "locationId": 9
+    },
+    {
+      "id": 423,
+      "flavorId": 103,
+      "locationId": 9
+    },
+    {
+      "id": 424,
+      "flavorId": 109,
+      "locationId": 9
+    },
+    {
+      "id": 425,
+      "flavorId": 120,
+      "locationId": 9
+    },
+    {
+      "id": 426,
+      "flavorId": 121,
+      "locationId": 9
+    },
+    {
+      "id": 427,
+      "flavorId": 122,
+      "locationId": 9
+    },
+    {
+      "id": 428,
+      "flavorId": 127,
+      "locationId": 9
+    },
+    {
+      "id": 429,
+      "flavorId": 133,
+      "locationId": 9
+    },
+    {
+      "id": 430,
+      "flavorId": 134,
+      "locationId": 9
+    },
+    {
+      "id": 431,
+      "flavorId": 149,
+      "locationId": 9
+    },
+    {
+      "id": 432,
+      "flavorId": 150,
+      "locationId": 9
+    },
+    {
+      "id": 433,
+      "flavorId": 153,
+      "locationId": 9
+    },
+    {
+      "id": 434,
+      "flavorId": 167,
+      "locationId": 9
+    },
+    {
+      "id": 435,
+      "flavorId": 170,
+      "locationId": 9
+    },
+    {
+      "id": 436,
+      "flavorId": 184,
+      "locationId": 9
+    },
+    {
+      "id": 437,
+      "flavorId": 208,
+      "locationId": 9
+    },
+    {
+      "id": 438,
+      "flavorId": 209,
+      "locationId": 9
+    },
+    {
+      "id": 439,
+      "flavorId": 210,
+      "locationId": 9
+    },
+    {
+      "id": 440,
+      "flavorId": 211,
+      "locationId": 9
+    },
+    {
+      "id": 441,
+      "flavorId": 212,
+      "locationId": 9
+    },
+    {
+      "id": 442,
+      "flavorId": 214,
+      "locationId": 9
+    },
+    {
+      "id": 443,
+      "flavorId": 215,
+      "locationId": 9
+    },
+    {
+      "id": 444,
+      "flavorId": 223,
+      "locationId": 9
+    },
+    {
+      "id": 445,
+      "flavorId": 7,
+      "locationId": 10
+    },
+    {
+      "id": 446,
+      "flavorId": 8,
+      "locationId": 10
+    },
+    {
+      "id": 447,
+      "flavorId": 9,
+      "locationId": 10
+    },
+    {
+      "id": 448,
+      "flavorId": 12,
+      "locationId": 10
+    },
+    {
+      "id": 449,
+      "flavorId": 14,
+      "locationId": 10
+    },
+    {
+      "id": 450,
+      "flavorId": 16,
+      "locationId": 10
+    },
+    {
+      "id": 451,
+      "flavorId": 22,
+      "locationId": 10
+    },
+    {
+      "id": 452,
+      "flavorId": 34,
+      "locationId": 10
+    },
+    {
+      "id": 453,
+      "flavorId": 54,
+      "locationId": 10
+    },
+    {
+      "id": 454,
+      "flavorId": 57,
+      "locationId": 10
+    },
+    {
+      "id": 455,
+      "flavorId": 58,
+      "locationId": 10
+    },
+    {
+      "id": 456,
+      "flavorId": 77,
+      "locationId": 10
+    },
+    {
+      "id": 457,
+      "flavorId": 78,
+      "locationId": 10
+    },
+    {
+      "id": 458,
+      "flavorId": 86,
+      "locationId": 10
+    },
+    {
+      "id": 459,
+      "flavorId": 95,
+      "locationId": 10
+    },
+    {
+      "id": 460,
+      "flavorId": 103,
+      "locationId": 10
+    },
+    {
+      "id": 461,
+      "flavorId": 109,
+      "locationId": 10
+    },
+    {
+      "id": 462,
+      "flavorId": 111,
+      "locationId": 10
+    },
+    {
+      "id": 463,
+      "flavorId": 119,
+      "locationId": 10
+    },
+    {
+      "id": 464,
+      "flavorId": 122,
+      "locationId": 10
+    },
+    {
+      "id": 465,
+      "flavorId": 125,
+      "locationId": 10
+    },
+    {
+      "id": 466,
+      "flavorId": 134,
+      "locationId": 10
+    },
+    {
+      "id": 467,
+      "flavorId": 150,
+      "locationId": 10
+    },
+    {
+      "id": 468,
+      "flavorId": 153,
+      "locationId": 10
+    },
+    {
+      "id": 469,
+      "flavorId": 177,
+      "locationId": 10
+    },
+    {
+      "id": 470,
+      "flavorId": 204,
+      "locationId": 10
+    },
+    {
+      "id": 471,
+      "flavorId": 205,
+      "locationId": 10
+    },
+    {
+      "id": 472,
+      "flavorId": 213,
+      "locationId": 10
+    },
+    {
+      "id": 473,
+      "flavorId": 214,
+      "locationId": 10
+    },
+    {
+      "id": 474,
+      "flavorId": 215,
+      "locationId": 10
+    },
+    {
+      "id": 475,
+      "flavorId": 222,
+      "locationId": 10
+    }
+  ],
+  "createdFlavors": [
+    {
+      "userId": 8,
+      "userName": "Haley",
+      "message": "It's like a circus in your mouth.",
+      "flavorName": "Carnival Ride",
+      "flavors": 16,
+      "flavors2": 27,
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "userName": "Haley",
+      "message": "I love blueberry cake it is my favorite. ",
+      "flavorName": "Blue Cake",
+      "flavors": 43,
+      "flavors2": 22,
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "userName": "Haley",
+      "message": "It's like a vacation in your mouth. ",
+      "flavorName": "VayCay Ice",
+      "flavors": 5,
+      "flavors2": 6,
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "userName": "Haley",
+      "message": "I tried the new Coca Cola coffee drink and think that the snow cone will taste similar.",
+      "flavorName": "Pick Me Up",
+      "flavors": 35,
+      "flavors2": 34,
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "userName": "scott",
+      "message": "favorite 2 flavors",
+      "flavorName": "blue lime berry",
+      "flavors": 22,
+      "flavors2": 93,
+      "id": 8
+    }
+  ]
 }
