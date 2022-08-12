@@ -3676,6 +3676,90 @@
       "id": 8
     }
   ],
-  "reviews": [],
-  "locationReviews": []
+  "reviews": [
+    {
+      "userId": 8,
+      "message": "I love their snow cones!",
+      "locationId": 2,
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "message": "here it is",
+      "locationId": 2,
+      "id": 2
+    },
+    {
+      "userId": 8,
+      "message": "pineapple",
+      "locationId": 2,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "message": "blueberry",
+      "locationId": 2,
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "message": "khjalhd",
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "userId": 8,
+      "message": "halha",
+      "locationId": 1,
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "message": "grape",
+      "locationId": 1,
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "message": "review",
+      "locationId": 1,
+      "id": 9
+    },
+    {
+      "userId": 8,
+      "message": "blue",
+      "locationId": 1,
+      "id": 10
+    },
+    {
+      "userId": 8,
+      "message": "testing",
+      "locationId": 1,
+      "id": 11
+    },
+    {
+      "userId": 8,
+      "message": "hello",
+      "locationId": 2,
+      "id": 12
+    },
+    {
+      "userId": 8,
+      "message": "hi",
+      "locationId": 2,
+      "id": 13
+    },
+    {
+      "userId": 8,
+      "message": "Grrrrreat!!",
+      "locationId": 7,
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "message": "I love their pup cups!",
+      "locationId": 7,
+      "id": 15
+    }
+  ]
 }
