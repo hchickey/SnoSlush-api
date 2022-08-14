@@ -3667,12 +3667,12 @@
       "id": 7
     },
     {
-      "userId": 8,
-      "userName": "scott",
-      "message": "favorite 2 flavors",
-      "flavorName": "blue lime berry",
-      "flavors": 22,
-      "flavors2": 93,
+      "userId": 6,
+      "userName": "Susan",
+      "message": "When I was little my mom would always melt butter over our blueberry muffins as soon as they came out of the oven. I feel like this combo would taste very similar. ",
+      "flavorName": "Savory Blue Muffin",
+      "flavors": 74,
+      "flavors2": 22,
       "id": 8
     }
   ],
@@ -3685,72 +3685,6 @@
     },
     {
       "userId": 8,
-      "message": "here it is",
-      "locationId": 2,
-      "id": 2
-    },
-    {
-      "userId": 8,
-      "message": "pineapple",
-      "locationId": 2,
-      "id": 3
-    },
-    {
-      "userId": 8,
-      "message": "blueberry",
-      "locationId": 2,
-      "id": 5
-    },
-    {
-      "userId": 8,
-      "message": "khjalhd",
-      "locationId": 2,
-      "id": 6
-    },
-    {
-      "userId": 8,
-      "message": "halha",
-      "locationId": 1,
-      "id": 7
-    },
-    {
-      "userId": 8,
-      "message": "grape",
-      "locationId": 1,
-      "id": 8
-    },
-    {
-      "userId": 8,
-      "message": "review",
-      "locationId": 1,
-      "id": 9
-    },
-    {
-      "userId": 8,
-      "message": "blue",
-      "locationId": 1,
-      "id": 10
-    },
-    {
-      "userId": 8,
-      "message": "testing",
-      "locationId": 1,
-      "id": 11
-    },
-    {
-      "userId": 8,
-      "message": "hello",
-      "locationId": 2,
-      "id": 12
-    },
-    {
-      "userId": 8,
-      "message": "hi",
-      "locationId": 2,
-      "id": 13
-    },
-    {
-      "userId": 8,
       "message": "Grrrrreat!!",
       "locationId": 7,
       "id": 14
@@ -3760,6 +3694,42 @@
       "message": "I love their pup cups!",
       "locationId": 7,
       "id": 15
+    },
+    {
+      "userId": 1,
+      "message": "OMG the strawberry cheesecake snow cone is to die for!! ",
+      "locationId": 4,
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "message": "Took my kids here and they loved it. So happy to have a snow cone place in our town!",
+      "locationId": 10,
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "message": "My kids love the sour gummi worm flavor! Highly recommend!",
+      "locationId": 2,
+      "id": 18
+    },
+    {
+      "userId": 7,
+      "message": "Can't get enough of their Key Lime Pie snow cone!",
+      "locationId": 2,
+      "id": 19
+    },
+    {
+      "userId": 8,
+      "message": "Always get your snow cone stuffed with ice cream! You won't regret it.",
+      "locationId": 3,
+      "id": 20
+    },
+    {
+      "userId": 6,
+      "message": "Not only do they have amazing snow cones but they sell food too! Best place in Memphis.",
+      "locationId": 1,
+      "id": 21
     }
   ]
 }
