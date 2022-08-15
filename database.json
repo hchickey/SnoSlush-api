@@ -380,6 +380,10 @@
       "flavorName": "Blue Hawaiian"
     },
     {
+      "id": 22,
+      "flavorName": "Blueberry"
+    },
+    {
       "id": 7,
       "flavorName": "Bubblegum"
     },
@@ -440,16 +444,16 @@
       "flavorName": "Blue Bubblegum"
     },
     {
-      "id": 22,
-      "flavorName": "Blueberry"
-    },
-    {
       "id": 23,
       "flavorName": "Butterscotch"
     },
     {
       "id": 24,
       "flavorName": "Butterfly Kiss"
+    },
+    {
+      "id": 74,
+      "flavorName": "Double Butter"
     },
     {
       "id": 25,
@@ -646,10 +650,6 @@
     {
       "id": 73,
       "flavorName": "Firecracker"
-    },
-    {
-      "id": 74,
-      "flavorName": "Double Butter"
     },
     {
       "id": 75,
@@ -3665,15 +3665,6 @@
       "flavors": 35,
       "flavors2": 34,
       "id": 7
-    },
-    {
-      "userId": 6,
-      "userName": "Susan",
-      "message": "When I was little my mom would always melt butter over our blueberry muffins as soon as they came out of the oven. I feel like this combo would taste very similar. ",
-      "flavorName": "Savory Blue Muffin",
-      "flavors": 74,
-      "flavors2": 22,
-      "id": 8
     }
   ],
   "reviews": [
@@ -3682,12 +3673,6 @@
       "message": "I love their snow cones!",
       "locationId": 2,
       "id": 1
-    },
-    {
-      "userId": 8,
-      "message": "Grrrrreat!!",
-      "locationId": 7,
-      "id": 14
     },
     {
       "userId": 3,
